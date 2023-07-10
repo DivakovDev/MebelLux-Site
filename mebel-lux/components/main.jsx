@@ -25,6 +25,9 @@ function Main() {
            <a>За нас</a>
            <a>Нашите продукти</a>
           </div>
+          <div className="info-2">
+            <a href="tel:+359 882078322" className="cta-btn">Телефон за връзка</a>
+          </div>
         </div>
       </main>
     </>
