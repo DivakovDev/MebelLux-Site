@@ -75,6 +75,11 @@ nav {
     text-align: center;
 }
 
+.logo img{
+ width: 60px;
+ height: 60px;
+}
+
 .inner-wrapper {
     padding-left: 1em;
     padding-right: .1em;
@@ -109,7 +114,6 @@ nav ul li a {
 
 .inner-wrapper img{
     width: 20%;
-    margin: 0;
 }
 
 .selected {
@@ -133,12 +137,12 @@ h1 {
 }
 
 .panel {
-    background: #dfb891;
-    border-radius: .3em;
+    margin-bottom: 2em;
 }
 
 .panel img{
     width: 100%;
+    border-radius: 8px;
 }
 
 h3 {
@@ -210,13 +214,6 @@ h3 {
 nav {
     text-align: left;
 }
-
-
-.panel {
-    padding: .5em 1em;
-    margin-bottom: 2em;
-}
-
 
 /* Large Phones */
 

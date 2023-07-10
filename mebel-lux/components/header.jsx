@@ -10,7 +10,7 @@ function Header() {
         </svg>
 
         <a href="#" className="logo">
-          Company
+          <img src="./public/mebel-lux-logo.png" alt="logo" />
         </a>
 
         <a href="tel:+359 882078322" className="cta-btn">
