@@ -38,7 +38,7 @@ ul {
 
 nav {
     position: fixed;
-    background: #af7236 !important;
+    background: #D2AE6D !important;
     height: 100vh;
     left: 0;
     top: 0;
@@ -81,7 +81,7 @@ nav p {
     margin: 0;
     font-size: 1em;
     text-align: center;
-    color: #e2cbb5;
+    color: #f7eadf;
 }
 
 nav img {
@@ -103,7 +103,7 @@ nav ul li a {
 }
 
 .selected {
-    background: #dfb891;
+    background: #9b93db;
 }
 
 .open-nav {
@@ -113,6 +113,10 @@ nav ul li a {
     transform: translateX(0);
 }
 
+.ask{
+    color:#9b93db;
+    font-weight: 700;
+}
 /* Header */
 
 header{
@@ -132,7 +136,7 @@ header .logo {
 }
 
 a.cta-btn {
-    background: #dfb891;
+    background: #D2AE6D;
     color: #834818;
     font-weight: bold;
     font-size: 21px;
@@ -174,7 +178,7 @@ h3 {
 
 .info a{
     color: #834818;
-    background-color: #dfb891;
+    background-color: #D2AE6D;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
