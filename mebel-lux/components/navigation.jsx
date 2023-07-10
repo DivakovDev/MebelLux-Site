@@ -4,11 +4,7 @@ function NavigationBar() {
       <nav id="nav">
         <div className="inner-wrapper">
           <h3>МебелЛукс</h3>
-          <img
-            id="exit-btn"
-            src="./public/cross-svgrepo-com.svg"
-            alt="close navigation bar"
-          />
+          <h1>X</h1>
         </div>
         <ul>
           <li className="selected">
