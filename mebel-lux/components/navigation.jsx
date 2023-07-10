@@ -4,7 +4,7 @@ function NavigationBar() {
       <nav id="nav">
         <div className="inner-wrapper">
           <h3>МебелЛукс</h3>
-          <h1>X</h1>
+          <button id="exit-btn">✖</button>
         </div>
         <ul>
           <li className="selected">

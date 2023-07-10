@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -17,49 +16,25 @@ body {
     text-align:center;
 }
 
-#root, nav, header, main{
-    background: #f0ebd8;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header svg {
-    width: 1.5em;
-    cursor: pointer;
+nav, header, main{
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
     color: #834818;
+    text-decoration: none;
 }
 
+p{
+    line-height: 1.4em;
+}
 
 ul {
     list-style: none;
     padding: 0;
 }
 
-a.logo {
-    font-weight: bold;
-    margin: 0 1em;
-}
-
-a.cta-btn {
-    margin-left: auto;
-    background: #dfb891;
-    padding: 1em;
-    display: inline-block;
-    border-radius: 2em;
-    font-size: .6em;
-    color: #303A52;
-    font-weight: bold;
-}
-
 /* Navigation */
-
 
 nav {
     position: fixed;
@@ -81,10 +56,24 @@ nav {
 }
 
 .inner-wrapper {
-    padding-left: 1em;
-    padding-right: .1em;
-    padding-top: .3em;
+    display: flex;
+    padding: .3em .7em 0 1em;
+    margin-top: 10px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.inner-wrapper h3{
+    color: white;
+}
+
+#exit-btn{
+color: white;
+ background: none;
+ border: none;
+ font-size: 21px;
+ font-weight: 700;
+
 }
 
 nav p {
@@ -92,7 +81,7 @@ nav p {
     margin: 0;
     font-size: 1em;
     text-align: center;
-    color: #dfb891;
+    color: #e2cbb5;
 }
 
 nav img {
@@ -108,12 +97,9 @@ nav ul{
 
 nav ul li a {
     display: block;
-    padding: .2em;
-    font-size: 1.8em;
-}
-
-.inner-wrapper img{
-    width: 20%;
+    color: white;
+    font-size: 1.2em;
+    padding: .8em 1em;
 }
 
 .selected {
@@ -127,8 +113,36 @@ nav ul li a {
     transform: translateX(0);
 }
 
+/* Header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header svg {
+    width: 40px;
+    cursor: pointer;
+}
+
+header .logo {
+    margin: 0;
+    padding: 0;
+}
+
+a.cta-btn {
+    background: #dfb891;
+    color: #834818;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+
 
 /* Main Section */
+
 
 
 h1 {
@@ -151,68 +165,21 @@ h3 {
     font-size: 2em;
 }
 
-ul.data li p {
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info a{
     color: #834818;
-    font-weight: bold;
-    font-size: 1.8em;
-    margin: .3em 0 1em;
-}
-
-ul.data li:last-child p {
-    margin-bottom: 0;
-}
-ul.secondary {
-    margin-top: 2em;
-}
-ul.secondary li p {
-    font-size: 1.3em;
-}
-
-main {
-    border: 1px solid white;
-}
-
-
-/* Your Fixes Below */
-
-body {
-    background: #303A52;
-    font-family: 'Nunito', sans-serif;
-}
-
-nav {
-    background: #2C354A;
-}
-
-main {
-   border: unset;
-} 
-
-a {
-    text-decoration: none;
-}
-
-p {
-    line-height: 1.4em;
-}
-
-a.cta-btn {
-    font-size: .9em;
-    padding: .2em .4em;
-    border-radius: .2em;
-}
-
-nav ul li a {
-    font-size: 1.2em;
-    padding: .8em 1em;
-}
-
-h3 {
-    font-size: unset;
-}
-
-nav {
-    text-align: left;
+    background-color: #dfb891;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3px 10px;
+    min-width: 120px;
 }
 
 /* Large Phones */

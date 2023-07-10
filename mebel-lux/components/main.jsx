@@ -2,41 +2,28 @@ function Main() {
   return (
     <>
       <main>
-
         <section className="panel">
           <img className="bed" src="./public/background1.png" alt="bed image" />
         </section>
 
         <div className="columns half">
           <div className="col left">
-            <h3>Monthly Visitors</h3>
+            <h3>Мебел Лукс</h3>
 
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no.
+              Фирма "Мебеллукс" е производител на висококачествени мебели от
+              масивна дървесина. Дългогодишният опит в областта на
+              мебелопроизводството и модерните машини, дават оптимална
+              възможност за производство на качествени мебели. Изработваме както
+              стандартни мебели, така и мебели по поръчка на клиента. Работим с
+              много партньорски фирми, които предоставят крайният продукт до
+              клиенти в цялата страна. Пълен списък с нашите партноьрски фирми,
+              както и информация за поръчка можете да откиете в менюто.
             </p>
           </div>
-          <div className="col">
-            <ul className="data secondary">
-              <li>
-                <h3>Monthly</h3>
-                <p>$1,201.00</p>
-              </li>
-              <li>
-                <h3>Quarterly</h3>
-                <p>$5,737.60</p>
-              </li>
-              <li>
-                <h3>Annually</h3>
-                <p>$30,261.10</p>
-              </li>
-              <li>
-                <h3>Quarterly</h3>
-                <p>$5,201.00</p>
-              </li>
-            </ul>
+          <div className="info">
+           <a>За нас</a>
+           <a>Нашите продукти</a>
           </div>
         </div>
       </main>
@@ -44,4 +31,4 @@ function Main() {
   );
 }
 
-export default Main
+export default Main;
