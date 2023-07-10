@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import NavigationBar from '/components/navigation.jsx'
 import Header from '/components/header.jsx'
 import Main from '/components/main.jsx'
+import Footer from '/components/footer.jsx'
 
 
 
@@ -50,6 +51,8 @@ function Home() {
       <NavigationBar />
       <Header />
       <Main />
+      <Footer/>
+
     </>
   );
 }

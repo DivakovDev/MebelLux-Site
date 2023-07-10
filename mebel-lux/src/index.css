@@ -10,16 +10,17 @@ html, body {
 }
 
 body {
-    background: #f0ebd8 !important;
     color: #834818;
-    padding: .5em;
     font-family: serif;
     height: 100vh;
     text-align:center;
 }
 
-nav, header, main{
+nav, header, main, footer{
     font-family: 'Montserrat', sans-serif;
+    background: #f0ebd8;
+    padding: 8px;
+
 }
 
 a {
@@ -151,6 +152,10 @@ header .logo {
 
 /* Main Section */
 
+main{
+    padding-bottom: 40px;
+}
+
 h1 {
     color: #834818;
     margin-top: 1em;
@@ -204,6 +209,24 @@ h3 {
     border-radius: 8px;
     padding: 3px 10px;
     margin-top: 200px;
+}
+
+/*Footer */
+
+footer{
+    background: #D2AE6D;
+    padding-top: 20px;
+}
+
+footer p{
+    font-weight: 500;
+    color: #834818;
+    font-size: 12px;
+}
+
+footer p span{
+    display: flex;
+    justify-content: center;
 }
 
 /* Large Phones */
