@@ -12,7 +12,7 @@ function Header() {
         <h2>Мебел Лукс</h2>
 
         <a href="#" className="logo">
-          <img src="./images/mebel-lux-logo.png" alt="logo" />
+          <img src="../images/mebel-lux-logo.png" alt="logo" />
         </a>
 
         
