@@ -10,6 +10,7 @@ html, body {
 }
 
 body {
+    background: #f0ebd8;
     color: #834818;
     font-family: serif;
     height: 100vh;
@@ -132,6 +133,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0;
 }
 
 header h2{
@@ -222,6 +224,7 @@ footer p{
     font-weight: 500;
     color: #834818;
     font-size: 12px;
+    margin: 0;
 }
 
 footer p span{
