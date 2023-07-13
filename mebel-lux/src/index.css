@@ -120,6 +120,7 @@ nav ul li a {
     visibility: unset;
     opacity: 1;
     transform: translateX(0);
+    padding: 0;
 }
 
 .ask{
@@ -134,6 +135,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0;
+    padding-left: 8px; 
 }
 
 header h2{
@@ -145,11 +147,6 @@ header h2{
 header svg {
     width: 40px;
     cursor: pointer;
-}
-
-header .logo {
-    margin: 0;
-    padding: 0;
 }
 
 /* Main Section */
@@ -164,11 +161,11 @@ h1 {
 }
 
 .panel {
-    margin-bottom: 2em;
+    margin-bottom: 15px;
 }
 
 .panel img{
-    width: 100%;
+    width: 95%;
     border-radius: 8px;
 }
 
@@ -193,14 +190,18 @@ h3 {
     color: #83532c;
     background-color: #D2AE6D;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 700;
     padding: 3px 10px;
     min-width: 120px;
 }
 
 .info-2{
-    margin-top: 20px;
+    margin-top: 12px;
+}
+
+.info-2 a{
+    color: #83532c;
 }
 
 .cta-btn {
@@ -208,16 +209,18 @@ h3 {
     color: white;
     font-weight: bold;
     font-size: 21px;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 3px 10px;
-    margin-top: 200px;
 }
 
 /*Footer */
 
 footer{
+    display: flex;
+    flex-direction: column;
     background: #D2AE6D;
     padding-top: 20px;
+    margin-top: auto;
 }
 
 footer p{
@@ -234,30 +237,37 @@ footer p span{
 
 /* Large Phones */
 
-@media (min-width: 420px) {
-    body {
-        padding: 1em;
-        text-align: left;
+@media( max-width: 370px){
+    .col p{
+        font-size: 14px;
+        padding: 0 20px;
     }
-    ul.data {
-        display: flex;
-        flex-wrap: wrap;
+
+    .info{
+        flex-direction: column;
     }
-    ul.data li {
-        flex: 0 0 50%;
+
+    .info a{
+        font-size: 21px;
+        min-width: 240px;
+    }
+
+    .info a:last-child{
+        margin-top:  15px;
+    }
+
+    .info-2 a{
+        min-width: 240px;
+    }
+}
+
+@media (min-width: 424px) {
+    header{
+        padding: 0 10px;
     }
 }
 
 @media (min-width: 550px) {
-    ul.data {
-        justify-content: center;
-    }
-    .panel ul.data li {
-        flex: 0 0 33%;
-    }
-    .panel ul.data li p {
-        margin-bottom: 0;
-    }
     nav {
         width: 40%;
     }
@@ -270,15 +280,7 @@ footer p span{
     .columns {
         display: flex;
     }
-    .col {
-        flex: 0 0 48%;
-    }
-    .secondary {
-        margin-left: 3em;
-    }
-    ul.secondary {
-        margin-top: 0;
-    }
+    
     nav {
         width: 30%;
     }

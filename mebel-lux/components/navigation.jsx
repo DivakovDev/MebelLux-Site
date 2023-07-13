@@ -1,4 +1,29 @@
+import React, { useEffect } from "react";
+
 function NavigationBar() {
+
+  useEffect(() => {
+    const open = document.getElementById("menu-btn");
+    const nav = document.getElementById("nav");
+    const exit = document.getElementById("exit-btn");
+
+    const handleOpenClick = () => {
+      nav.classList.add("open-nav");
+    };
+
+    const handleExitClick = () => {
+      nav.classList.remove("open-nav");
+    };
+
+    open.addEventListener("click", handleOpenClick);
+    exit.addEventListener("click", handleExitClick);
+
+    return () => {
+      open.removeEventListener("click", handleOpenClick);
+      exit.removeEventListener("click", handleExitClick);
+    };
+  }, []);
+
   return (
     <>
       <nav id="nav">
@@ -8,10 +33,10 @@ function NavigationBar() {
         </div>
         <ul>
           <li className="selected">
-            <a href="#">Начало</a>
+            <a href="../pages/Home.jsx">Начало</a>
           </li>
           <li>
-            <a href="#">Продукти</a>
+            <a href="./pages/Products.jsx">Продукти</a>
           </li>
           <li>
             <a href="#">За Компанията</a>
