@@ -100,6 +100,8 @@ nav img {
 
 nav ul{
     padding:0;
+    border-top: 2px solid #ad7b52;
+    border-bottom: 2px solid #ad7b52;
 }
 
 nav ul li a {
@@ -121,6 +123,10 @@ nav ul li a {
     opacity: 1;
     transform: translateX(0);
     padding: 0;
+}
+
+.nav-info{
+    margin-top: 190px;
 }
 
 .ask{
@@ -176,7 +182,7 @@ h3 {
 }
 
 .col p{
- font-weight: 600;
+ font-weight: 500;
 }
 
 .info{
@@ -196,21 +202,8 @@ h3 {
     min-width: 120px;
 }
 
-.info-2{
-    margin-top: 12px;
-}
-
-.info-2 a{
-    color: #83532c;
-}
-
 .cta-btn {
-    background: #D2AE6D;
     color: white;
-    font-weight: bold;
-    font-size: 21px;
-    border-radius: 5px;
-    padding: 3px 10px;
 }
 
 /*Footer */
@@ -231,16 +224,15 @@ footer p{
 }
 
 footer p span{
-    display: flex;
-    justify-content: center;
+    color: white;
 }
 
-/* Large Phones */
+/* Small Phones */
 
-@media( max-width: 370px){
+@media( min-width: 320px){
     .col p{
-        font-size: 14px;
-        padding: 0 20px;
+        font-size: 12px;
+        padding: 0 12px;
     }
 
     .info{
@@ -248,42 +240,56 @@ footer p span{
     }
 
     .info a{
-        font-size: 21px;
-        min-width: 240px;
+        font-size: 18px;
+        min-width: 235px;
     }
 
     .info a:last-child{
         margin-top:  15px;
     }
-
-    .info-2 a{
-        min-width: 240px;
-    }
 }
 
-@media (min-width: 424px) {
+/* Medium Phones */
+
+@media (min-width: 375px) {
     header{
         padding: 0 10px;
+        font-size: 50px;
+    }
+
+    header h2{
+        font-size: 50px;
+    }
+    
+    .info a{
+        font-size: 20px;
+        min-width: 235px;
     }
 }
 
-@media (min-width: 550px) {
+/* Large Phones */
+
+@media (min-width: 425px) {
     nav {
         width: 40%;
     }
 }
 
-@media (min-width: 720px) {
-    body {
-        padding: 1.5em;
-    }
-    .columns {
-        display: flex;
-    }
+/* Tablets */
+
+@media (min-width: 768px) {
     
-    nav {
-        width: 30%;
-    }
+}
+
+/* Laptops */
+
+@media (min-width: 1024px) {
+    
+}
+
+/* Desktop */
+
+@media (min-width: 1440px) {
     
 }
 
