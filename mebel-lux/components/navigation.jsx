@@ -36,7 +36,7 @@ function NavigationBar() {
             <a href="../pages/Home.jsx">Начало</a>
           </li>
           <li>
-            <a href="./pages/Products.jsx">Продукти</a>
+            <a id="product-btn" href="#">Продукти</a>
           </li>
           <li>
             <a href="#">За Компанията</a>
@@ -45,7 +45,7 @@ function NavigationBar() {
             <a href="#">Контакти</a>
           </li>
         </ul>
-        <p>
+        <p className="nav-info">
           Добре дошли в МебелЛукс, разгърнете своята креативност и
           майсторство, като разгледате нашите продукти и изпратите{" "}
           <a className="ask" href="#">запитване</a>!

@@ -8,7 +8,6 @@ function Main() {
 
         <div className="columns half">
           <div className="col left">
-            <h3>Мебел Лукс</h3>
 
             <p>
               Фирма "Мебеллукс" е производител на висококачествени мебели от
@@ -22,11 +21,8 @@ function Main() {
             </p>
           </div>
           <div className="info">
-           <a>За нас</a>
+           <a href="Products">За нас</a>
            <a>Нашите продукти</a>
-          </div>
-          <div className="info-2">
-            <a href="tel:+359 882078322" className="cta-btn">Телефон за връзка</a>
           </div>
         </div>
       </main>
