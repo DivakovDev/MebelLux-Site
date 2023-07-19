@@ -1,0 +1,24 @@
+Main{
+    height: 100vh;
+}
+
+.product-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.prod-img{
+    width: 100%;
+}
+
+.prod-title{
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    margin-top: auto;
+}
