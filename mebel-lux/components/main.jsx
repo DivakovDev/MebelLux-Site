@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Main() {
   return (
     <>
@@ -21,8 +23,8 @@ function Main() {
             </p>
           </div>
           <div className="info">
-           <a href="Products">За нас</a>
-           <a>Нашите продукти</a>
+           <a>За нас</a>
+           <Link to="/products">Нашите продукти</Link>
           </div>
         </div>
       </main>

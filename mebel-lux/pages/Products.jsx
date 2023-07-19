@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import NavigationBar from '/components/navigation.jsx'
-import Header from '/components/header.jsx'
 import Footer from '/components/footer.jsx'
 
 function Products(){
@@ -25,7 +24,6 @@ function Products(){
     return(
         <>
         <NavigationBar />
-        <Header />
         <Footer/>
         </>
     )

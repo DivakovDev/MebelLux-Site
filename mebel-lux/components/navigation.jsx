@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom"
 
 function NavigationBar() {
 
@@ -33,16 +34,16 @@ function NavigationBar() {
         </div>
         <ul>
           <li className="selected">
-            <a href="../pages/Home.jsx">Начало</a>
-          </li>
-          <li>
-            <a id="product-btn" href="#">Продукти</a>
-          </li>
-          <li>
-            <a href="#">За Компанията</a>
-          </li>
-          <li>
-            <a href="#">Контакти</a>
+              <Link to="/">Начало</Link>
+            </li>
+            <li>
+              <Link to="/products">Продукти</Link>
+            </li>
+            <li>
+              <Link to="#">За Компанията</Link>
+            </li>
+            <li>
+              <Link to="#">Контакти</Link>
           </li>
         </ul>
         <p className="nav-info">
