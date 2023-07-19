@@ -5,7 +5,7 @@ function Main() {
     <>
       <main>
         <section className="panel">
-          <img className="bed" src="/images/background1.png" alt="bed image" />
+          <img className="bed" src="../images/background1.png" alt="bed image" />
         </section>
 
         <div className="columns half">

@@ -144,7 +144,7 @@ header{
     padding-left: 8px; 
 }
 
-header h2{
+.text-logo{
     font-size: 28px;
     font-family: 'Pattaya', sans-serif;
     margin: 0;
@@ -154,6 +154,12 @@ header svg {
     width: 40px;
     cursor: pointer;
 }
+
+.logo{
+    display: flex;
+    align-content: center;
+}
+
 
 /* Main Section */
 
@@ -256,10 +262,6 @@ footer p span{
         padding: 0 10px;
         font-size: 50px;
     }
-
-    header h2{
-        font-size: 50px;
-    }
     
     .info a{
         font-size: 20px;
@@ -271,7 +273,11 @@ footer p span{
 
 @media (min-width: 425px) {
     nav {
-        width: 40%;
+        width: 60%;
+    }
+
+    .text-logo{
+        font-size: 50px;
     }
 }
 

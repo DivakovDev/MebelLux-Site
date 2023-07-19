@@ -14,10 +14,10 @@ function App() {
           />
         </svg>
 
-        <Link to="/">Мебел Лукс</Link>
+        <Link className="text-logo" to="/">Мебел Лукс</Link>
 
         <Link to="/" className="logo">
-          <img src="/images/mebel-lux-logo.png" alt="logo" />
+          <img src="../images/mebel-lux-logo.png" alt="logo" />
         </Link>
       </header>
     <Routes>
