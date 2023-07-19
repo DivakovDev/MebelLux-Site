@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import NavigationBar from '/components/navigation.jsx'
-import Main from '/components/main.jsx'
+import Main from '/components/homeMain.jsx'
 import Footer from '/components/footer.jsx'
+import '../pages/home.css'
 
 
 

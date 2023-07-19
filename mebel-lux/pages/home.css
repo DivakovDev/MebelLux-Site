@@ -1,0 +1,52 @@
+/* Main Section */
+
+main{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #834818;
+    margin-top: 1em;
+}
+
+.panel {
+    margin-bottom: 15px;
+}
+
+.panel img{
+    width: 95%;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #834818;
+    margin: 0;
+    font-size: 2em;
+}
+
+.col p{
+ font-weight: 500;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info a{
+    color: #83532c;
+    background-color: #D2AE6D;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 3px 10px;
+    min-width: 120px;
+}
+
+.cta-btn {
+    color: white;
+    margin-bottom: 20px;
+}
