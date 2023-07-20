@@ -2,6 +2,10 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 import Home  from '../pages/Home.jsx'
 import Products from '../pages/Products.jsx'
+import ForUs from '../pages/For-us.jsx'
+import Contacts from '../pages/Contacts.jsx'
+
+
 
 function App() {
   return (
@@ -23,6 +27,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/products" element={<Products />} />
+      <Route path="/for-us" element={<ForUs />} />
+      <Route path="/contacts" element={<Contacts />} />
     </Routes>
   </BrowserRouter>
   )
