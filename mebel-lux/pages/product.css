@@ -1,16 +1,15 @@
-Main{
-    height: 100vh;
-}
-
 .product-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    min-height: 310vh;
 }
 
 .prod-img{
-    width: 100%;
+    height: 250px;
+    width: 100% ;
+    border-radius: 8px;
 }
 
 .prod-title{
@@ -19,6 +18,5 @@ Main{
 }
 
 footer{
-    display: flex;
     margin-top: auto;
 }

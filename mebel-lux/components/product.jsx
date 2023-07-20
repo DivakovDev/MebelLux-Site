@@ -1,9 +1,11 @@
-export default function Product(){
+import React from "react"
+
+export default function Product(props){
     return(
         <>
             <div className="prod">
-                <img className="prod-img" src="../images/background1.png" alt="product image" />
-                <h4 className="prod-title">Product Title</h4>            
+                <img className="prod-img" src={props.img} alt="product image" />
+                  <h4 className="prod-title">{props.title}</h4>            
             </div>
         </>
     )

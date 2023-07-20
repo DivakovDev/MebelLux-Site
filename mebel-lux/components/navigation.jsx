@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom"
 
-function NavigationBar() {
+export default function NavigationBar() {
 
   useEffect(() => {
     const open = document.getElementById("menu-btn");
@@ -32,8 +32,8 @@ function NavigationBar() {
           <h3>МебелЛукс</h3>
           <button id="exit-btn">✖</button>
         </div>
-        <ul>
-          <li className="selected">
+        <ul id="myMenu">
+          <li>
               <Link to="/">Начало</Link>
             </li>
             <li>
@@ -55,5 +55,3 @@ function NavigationBar() {
     </>
   );
 }
-
-export default NavigationBar;

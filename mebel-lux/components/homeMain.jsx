@@ -23,7 +23,7 @@ function Main() {
             </p>
           </div>
           <div className="info">
-           <a>За нас</a>
+           <Link to="/for-us">За нас</Link>
            <Link to="/products">Нашите продукти</Link>
           </div>
         </div>
