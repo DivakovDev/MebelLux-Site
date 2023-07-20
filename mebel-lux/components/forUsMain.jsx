@@ -25,7 +25,7 @@ export default function Main() {
           </div>
           <div className="info">
             <Link to="/products">Нашите продукти</Link>
-            <Link to="/products">Контакти</Link>
+            <Link to="/contacts">Контакти</Link>
           </div>
         </div>
       </main>

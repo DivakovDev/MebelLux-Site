@@ -4,30 +4,20 @@ export default function Main() {
   return (
     <>
       <main>
-        <section className="panel">
-          <img className="bed" src="../images/for-us.jpg" alt="bed image" />
-        </section>
-
-        <div className="columns half">
-          <div className="col left">
-            <h3>За Компанията</h3>
-
-            <p>
-              Фирма Мебеллукс произвеждаа мебели от естествена дървесина.
-              Притежава дългогодишен опит в областта на мебелопроизводството и е
-              оборудвана с модерни машини, които дават оптимална възможност за
-              производството на качествени мебели. Продукцията ни се е наложила
-              на Българския пазар благодарение на качество, конкурентни цени и
-              най - вече на стремежа за удоволетворяване желанията на клиентите.
-              Фирмата има богато разнообразие от материали и цветове с което се
-              дава възможност на клиента да импровизира в идеите си.
-            </p>
-          </div>
-          <div className="info">
-            <Link to="/products">Нашите продукти</Link>
-            <Link to="/contacts">Контакти</Link>
-          </div>
+        <h1>Контакти</h1>
+        <h4>Телефон: 0898688821</h4>
+        <h4>Email: mebellux@abv.bg</h4>
+        <h4>Адрес: гр. Велинград, ул. "Чавдар Войвода" 29, 4600</h4>
+        <div>
+            <input type="text" placeholder="Име"/>
+            <input type="text" placeholder="Email"/>
+            <input type="text" placeholder="Телефон"/>
+            <textarea type="text" placeholder="Съобщение"/>
+            <hr />
+            <button type="submit">Изпрати</button>
         </div>
+          
+    
       </main>
     </>
   );

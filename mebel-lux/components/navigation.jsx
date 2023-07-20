@@ -40,10 +40,10 @@ export default function NavigationBar() {
               <Link to="/products">Продукти</Link>
             </li>
             <li>
-              <Link to="#">За Компанията</Link>
+              <Link to="/for-us">За Компанията</Link>
             </li>
             <li>
-              <Link to="#">Контакти</Link>
+              <Link to="/contacts">Контакти</Link>
           </li>
         </ul>
         <p className="nav-info">
