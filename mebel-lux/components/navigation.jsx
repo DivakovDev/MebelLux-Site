@@ -29,7 +29,7 @@ export default function NavigationBar() {
     <>
       <nav id="nav">
         <div className="inner-wrapper">
-          <h3>МебелЛукс</h3>
+          <h3>МебелЛукс-М</h3>
           <button id="exit-btn">✖</button>
         </div>
         <ul id="myMenu">
@@ -49,7 +49,7 @@ export default function NavigationBar() {
         <p className="nav-info">
           Добре дошли в МебелЛукс, разгърнете своята креативност и
           майсторство, като разгледате нашите продукти и изпратите{" "}
-          <a className="ask" href="#">запитване</a>!
+          <Link className="ask" to="/contacts">запитване!</Link>        
         </p>
       </nav>
     </>

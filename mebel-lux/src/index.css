@@ -10,8 +10,8 @@ html, body {
 }
 
 body {
-    background: #f0ebd8;
-    color: #834818;
+    background: #00131e;
+    color: #D0AD6C;
     font-family: serif;
     height: 100vh;
     text-align:center;
@@ -19,9 +19,12 @@ body {
 
 nav, header, main, footer{
     font-family: 'Montserrat', sans-serif;
-    background: #f0ebd8;
+    background: #00131e;
     padding: 8px;
 
+}
+main{
+    padding: 0;
 }
 
 a {
@@ -46,7 +49,7 @@ ul {
 
 nav {
     position: fixed;
-    background: #D2AE6D !important;
+    background: #432A28 !important;
     height: 100vh;
     left: 0;
     top: 0;
@@ -73,12 +76,12 @@ nav {
 
 .inner-wrapper h3{
     font-family: 'Pattaya', sans-serif;
-    color: white;
+    color: #D0AD6C;
     letter-spacing: 1px;
 }
 
 #exit-btn{
-color: white;
+color: #D0AD6C;
  background: none;
  border: none;
  font-size: 21px;
@@ -92,7 +95,7 @@ nav p {
     font-size: 1em;
     font-weight: 500;
     text-align: center;
-    color: white;
+    color: #D0AD6C;
 }
 
 nav img {
@@ -104,25 +107,19 @@ nav img {
 
 nav ul{
     padding:0;
-    border-top: 2px solid #ad7b52;
-    border-bottom: 2px solid #ad7b52;
 }
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #D0AD6C;
     font-size: 1.2em;
     font-weight: 500;
     padding: .8em 1em;
     
 }
 
-.selected {
-    background: #834818;
-}
-
 .open-nav {
-    color: #dfb891;
+    color: #D0AD6C;
     visibility: unset;
     opacity: 1;
     transform: translateX(0);
@@ -130,11 +127,11 @@ nav ul li a {
 }
 
 .nav-info{
-    margin-top: 190px;
+    margin-top: 100px;
 }
 
 .ask{
-    color:#834818;
+    color: #c8cac5;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -164,6 +161,10 @@ header svg {
     align-content: center;
 }
 
+.logo img{
+    width: 100px;
+    height:100px;
+}
 
 /* Home Main Section */
 
@@ -178,20 +179,19 @@ header svg {
 footer{
     display: flex;
     flex-direction: column;
-    background: #D2AE6D;
-    padding-top: 15px;
+    background:#00131e;
     margin-top: auto;
 }
 
 footer p{
     font-weight: 500;
-    color: #834818;
+    color: #D0AD6C;
     font-size: 12px;
     margin: 0;
 }
 
-footer p span{
-    color: white;
+footer p span, .cta-btn{
+    color: #c8cac5;
 }
 
 /* Small Phones */

@@ -18,8 +18,6 @@ function App() {
           />
         </svg>
 
-        <Link className="text-logo" to="/">Мебел Лукс</Link>
-
         <Link to="/" className="logo">
           <img src="../images/mebel-lux-logo.png" alt="logo" />
         </Link>

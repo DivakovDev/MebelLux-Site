@@ -1,14 +1,13 @@
 /* Main Section */
 
 main{
-    margin-top: 20px;
     padding-bottom: 40px;
     margin-bottom: 20px;
     height: 120vh;
 }
 
 h1 {
-    color: #834818;
+    color: #D0AD6C;
     margin-top: 1em;
 }
 
@@ -17,12 +16,11 @@ h1 {
 }
 
 .panel img{
-    width: 95%;
-    border-radius: 8px;
+    width: 100%;
 }
 
 h3 {
-    color: #834818;
+    color: #D0AD6C;
     margin: 0;
     font-size: 2em;
 }
@@ -39,8 +37,8 @@ h3 {
 }
 
 .info a{
-    color: #83532c;
-    background-color: #D2AE6D;
+    color: #D0AD6C;
+    background-color: #432A28;
     border-radius: 5px;
     font-size: 21px;
     font-weight: 700;
@@ -48,7 +46,42 @@ h3 {
     min-width: 120px;
 }
 
-.cta-btn {
+.facebook-page{
+    background-image: url('../images/weardrop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:40px 8px 0 8px;
+}
+
+.top-section-facebook{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+}
+
+.profile-picture{
+    margin: 5px 0 0 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.facebook-page-name, .followers{
+    font-size: 18px;
+    margin: 0 10px;
     color: white;
-    margin-bottom: 20px;
+}
+
+.followers{
+    font-size: 14px;
+}
+
+.bootom-section{
+    margin: 40px 0 5px 5px;
+    display: flex;
+    justify-content: end;
+} 
+
+.bootom-section button{
+    margin: 5px;
 }
