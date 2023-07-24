@@ -181,6 +181,7 @@ footer{
     flex-direction: column;
     background:#00131e;
     margin-top: auto;
+    border-top: 1px solid #D0AD6C;
 }
 
 footer p{
@@ -188,6 +189,7 @@ footer p{
     color: #D0AD6C;
     font-size: 12px;
     margin: 0;
+    padding-top: 5px;
 }
 
 footer p span, .cta-btn{
