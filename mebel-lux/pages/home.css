@@ -3,12 +3,14 @@
 main{
     padding-bottom: 40px;
     margin-bottom: 20px;
-    height: 120vh;
+    height: 125vh;
 }
 
 h1 {
     color: #D0AD6C;
-    margin-top: 1em;
+    margin-top: 8px;
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 1px;
 }
 
 .panel {
@@ -50,7 +52,7 @@ h3 {
     background-image: url('../images/weardrop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    margin:40px 8px 0 8px;
+    margin:55px 10px 0 10px;
 }
 
 .top-section-facebook{

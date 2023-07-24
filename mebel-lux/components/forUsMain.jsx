@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 export default function Main() {
   return (
     <>
-      <main>
+      <main id="for-us-main">
         <section className="panel">
           <img className="bed" src="../images/for-us.jpg" alt="bed image" />
         </section>
 
         <div className="columns half">
           <div className="col left">
-            <h3>За Компанията</h3>
+            <h3 className="for-us-title">За Компанията</h3>
 
             <p>
               Фирма Мебеллукс произвеждаа мебели от естествена дървесина.
