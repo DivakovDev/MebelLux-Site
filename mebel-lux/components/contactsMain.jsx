@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import emailjs from "emailjs-com"
 
 export default function Main() {
 function sendEmail(){
