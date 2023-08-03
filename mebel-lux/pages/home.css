@@ -52,7 +52,10 @@ h3 {
     background-image: url('../images/weardrop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    margin:55px 10px 0 10px;
+    margin:55px auto 0 auto;
+    min-width: 250px;
+    max-width: 500px;
+
 }
 
 .top-section-facebook{

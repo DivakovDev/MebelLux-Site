@@ -3,16 +3,16 @@ import { Link } from "react-router-dom"
 function Main() {
   return (
     <>
-      <main>
+      <main id="home-main">
         <section className="panel">
           <img className="bed" src="../images/background1.png" alt="bed image" />
         </section>
 
         <div className="columns half">
           <div className="col left">
-            <h1>МебелЛукс-М</h1>
+            <h1 className="home-info-title">МебелЛукс-М</h1>
 
-            <p>
+            <p className="home-info-p">
               Фирма "Мебеллукс" е производител на висококачествени мебели от
               масивна дървесина. Дългогодишният опит в областта на
               мебелопроизводството и модерните машини, дават оптимална

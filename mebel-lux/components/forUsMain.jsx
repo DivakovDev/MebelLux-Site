@@ -5,14 +5,14 @@ export default function Main() {
     <>
       <main id="for-us-main">
         <section className="panel">
-          <img className="bed" src="../images/for-us.jpg" alt="bed image" />
+          <img className="workshop-img" src="../images/for-us.jpg" alt="bed image" />
         </section>
 
         <div className="columns half">
           <div className="col left">
             <h3 className="for-us-title">За Компанията</h3>
 
-            <p>
+            <p className="for-us-info-p">
               Фирма Мебеллукс произвеждаа мебели от естествена дървесина.
               Притежава дългогодишен опит в областта на мебелопроизводството и е
               оборудвана с модерни машини, които дават оптимална възможност за
@@ -22,11 +22,12 @@ export default function Main() {
               Фирмата има богато разнообразие от материали и цветове с което се
               дава възможност на клиента да импровизира в идеите си.
             </p>
+            <div className="info for-us-info">
+              <Link to="/products">Нашите продукти</Link>
+              <Link to="/contacts">Контакти</Link>
+            </div>
           </div>
-          <div className="info">
-            <Link to="/products">Нашите продукти</Link>
-            <Link to="/contacts">Контакти</Link>
-          </div>
+          
         </div>
       </main>
     </>
