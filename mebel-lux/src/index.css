@@ -202,15 +202,17 @@ footer p span, .cta-btn{
 @media( min-width: 320px){
     .col p{
         font-size: 12px;
-        padding: 0 12px;
+        padding: 12px;
     }
 
     .info{
         flex-direction: column;
+        margin: 0;
     }
 
     .info a{
         font-size: 18px;
+        margin: 5px;
         min-width: 235px;
     }
 }
@@ -318,12 +320,8 @@ footer p span, .cta-btn{
         height: 80vh;
     }
 
-    .panel{
-        margin: auto;
-    }
-
-    .columns{
-        margin: auto;
+    .panel, .columns{
+        margin: auto 30px;
     }
 
     .workshop-img{
