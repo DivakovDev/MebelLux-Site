@@ -37,7 +37,14 @@ export default function NavigationBar() {
               <Link to="/">Начало</Link>
             </li>
             <li>
-              <Link to="/products">Продукти</Link>
+              <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
             </li>
             <li>
               <Link to="/for-us">За Компанията</Link>

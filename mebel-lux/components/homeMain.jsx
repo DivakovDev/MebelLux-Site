@@ -4,13 +4,17 @@ function Main() {
   return (
     <>
       <main id="home-main">
-        <section className="panel">
-          <img className="bed" src="../images/background1.png" alt="bed image" />
-        </section>
+        <div className="panel"></div>
+        <div className="panel-container">
+        <h1>МебелЛукс-M</h1>
+          <div className="info">
+           <Link to="/for-us">За нас</Link>
+           <Link to="/products">Нашите продукти</Link>
+          </div>
+        </div>
 
         <div className="columns half">
           <div className="col left">
-            <h1 className="home-info-title">МебелЛукс-М</h1>
 
             <p className="home-info-p">
               Фирма "Мебеллукс" е производител на висококачествени мебели от
@@ -22,10 +26,6 @@ function Main() {
               клиенти в цялата страна. Пълен списък с нашите партноьрски фирми,
               както и информация за поръчка можете да откиете в менюто.
             </p>
-          </div>
-          <div className="info">
-           <Link to="/for-us">За нас</Link>
-           <Link to="/products">Нашите продукти</Link>
           </div>
         </div>
 
