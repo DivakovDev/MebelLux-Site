@@ -74,13 +74,8 @@ export default function Hero() {
                       </button>
                     </div>
                   </div>
-                  <p className="mt-3 text-sm text-gray-900 sm:mt-4">
-                    Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
-                    our{' '}
-                    <a href="#" className="font-medium text-luxOrange">
-                      terms of service
-                    </a>
-                    .
+                  <p className="mt-3 text-gray-900 text-md sm:mt-4">
+                  Напишете вашия имейл след това натиснете бутона <span className='font-bold text-luxOrange'>'Изпрати'</span>. След като вашият имейл бъде изпратен, напишете вашия въпрос и отново натиснете <span className='font-bold text-luxOrange'>'Изпрати'</span>.
                   </p>
                 </form>
               </div>
