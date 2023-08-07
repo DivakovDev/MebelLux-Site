@@ -9,7 +9,7 @@ export default function Hero() {
         e.preventDefault();
         if (email) setHasEnteredEmail(true);
         
-        if(email && inQuery) console.log(email, inQuery)
+        if(email && inQuery) console.log(email), console.log(inQuery);
     }
 
   return (
@@ -17,19 +17,19 @@ export default function Hero() {
     <div className="pt-10 bg-luxBlue sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-          <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+          <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <div className="lg:py-24">
               <a
                 href="#"
-                className="inline-flex items-center text-black bg-white rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
+                className="inline-flex items-center p-1 pr-2 text-black bg-white rounded-full sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
               >
                 <span className="px-3 py-0.5 text-black text-xs font-semibold leading-5 uppercase tracking-wide bg-luxOrange rounded-full">
                   Мебели Лукс
                 </span>
                 <span className="ml-4 text-sm">Вече с нов изглед</span>
-                <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
+                <ChevronRightIcon className="w-5 h-5 ml-2 text-gray-500" aria-hidden="true" />
               </a>
-              <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+              <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                 <span className="block text-black">Високо класни мебели</span>
                 <span className="block text-luxOrange">по Ваш избор</span>
               </h1>
@@ -49,7 +49,7 @@ export default function Hero() {
                         type="email"
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="Enter your email"
-                        className="block w-full px-4 py-3 rounded-md border-2 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900 border-black"
+                        className="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-2 border-black rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900"
                       />
                     </div>
                     <div className={`textarea min-w-0 flex-1 ${hasEnteredEmail ? 'block' : 'hidden'}`}>
@@ -60,7 +60,7 @@ export default function Hero() {
                         id="textarea"
                         onChange={(e) => setInQuery(e.target.value)}
                         placeholder="Enter your query"
-                        className="block w-full px-4 py-3 rounded-md border-2 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900 border-black"
+                        className="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-2 border-black rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900"
                       />
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -86,7 +86,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
-            <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
+            <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
               <img
                 className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
