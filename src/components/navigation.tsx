@@ -195,7 +195,7 @@ export default function NavigationBar() {
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
             <a
               href="/contacts"
-              className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm whitespace-nowrap hover:bg-indigo-700"
+              className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-luxOrange whitespace-nowrap hover:bg-indigo-700"
             >
               Контакти
             </a>

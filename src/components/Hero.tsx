@@ -21,10 +21,10 @@ export default function Hero() {
             <div className="lg:py-24">
               <a
                 href="#"
-                className="inline-flex items-center p-1 pr-2 text-black bg-white rounded-full sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
+                className="inline-flex items-center p-1 pr-2 text-black bg-white rounded-full sm:text-base lg:text-sm xl:text-base hover:text-luxBlue"
               >
                 <span className="px-3 py-0.5 text-black text-xs font-semibold leading-5 uppercase tracking-wide bg-luxOrange rounded-full">
-                  Мебели Лукс
+                  МебелЛукс-М
                 </span>
                 <span className="ml-4 text-sm">Вече с нов изглед</span>
                 <ChevronRightIcon className="w-5 h-5 ml-2 text-gray-500" aria-hidden="true" />
@@ -33,9 +33,10 @@ export default function Hero() {
                 <span className="block text-black">Високо класни мебели</span>
                 <span className="block text-luxOrange">по Ваш избор</span>
               </h1>
-              <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt
-                amet fugiat veniam occaecat fugiat.
+              <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-lg">
+                Добре дошли в "МебелЛукс" – мястото за изискани, устойчиви дървени изделия. 
+                Уникални ръчно изработени мебели, обединяващи естетика, функционалност и здравина. 
+                Вашият дом или бизнес заслужават нашите дървени шедьоври.
               </p>
               <div className="mt-10 sm:mt-12">
                 <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -60,7 +61,7 @@ export default function Hero() {
                         id="textarea"
                         onChange={(e) => setInQuery(e.target.value)}
                         placeholder="Enter your query"
-                        className="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-2 border-black rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900"
+                        className="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-2 border-black rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900"
                       />
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -90,8 +91,8 @@ export default function Hero() {
               {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
               <img
                 className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg"
-                alt=""
+                src="../images/home-bg.png"
+                alt="home-bg"
               />
             </div>
           </div>
