@@ -111,7 +111,7 @@ export default function NavigationBar() {
             <a href="/">
               <span className="w-16 h-16 sr-only">Workflow</span>
               <img
-                className="w-auto h-10 sm:h-10"
+                className="w-auto h-10 sm:h-14"
                 src="../images/phoenix-logo.png"
                 alt=""
               />
