@@ -31,7 +31,12 @@ function Products() {
         <Product img="/images/desks.jpg" title="Бюра" id={""} description={""} options={""} href={""} />
         <Product img="/images/antre.jpg" title="Антрета" id={""} description={""} options={""} href={""} />
         <Product img="/images/children-beds.jpg" title="Детски легла" id={""} description={""} options={""} href={""} />
-        
+        <Product img="/images/dressers.jpg" title="Скринове" id={""} description={""} options={""} href={""} />
+        <Product img="/images/sections.jpg" title="Секции" id={""} description={""} options={""} href={""} />
+        <Product img="/images/tables.jpg" title="Маси" id={""} description={""} options={""} href={""} />
+        <Product img="/images/tv-stands.jpg" title="ТВ Барчета" id={""} description={""} options={""} href={""} />
+        <Product img="/images/vanities.jpg" title="Тоалетки" id={""} description={""} options={""} href={""} />
+        <Product img="/images/outdoor-furniture.jpg" title="Градински Мебели" id={""} description={""} options={""} href={""} />
       </div>
     </section>
   );

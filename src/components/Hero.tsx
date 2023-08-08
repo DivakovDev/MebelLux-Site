@@ -23,7 +23,7 @@ export default function Hero() {
                 href="#"
                 className="inline-flex items-center p-1 pr-2 text-black bg-white rounded-full sm:text-base lg:text-sm xl:text-base "
               >
-                <span className="px-3 py-0.5 text-black hover:text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-luxOrange rounded-full">
+                <span className="px-3 py-0.5 text-black hover:text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-luxOrange hover:bg-luxWenge rounded-full">
                   МебелЛукс-М
                 </span>
                 <span className="my-1 ml-4 text-sm font-semibold hover:text-luxOrange">Вече с нов изглед</span>
@@ -34,7 +34,7 @@ export default function Hero() {
                 <span className="block text-luxOrange">по Ваш избор</span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-lg">
-                Добре дошли в "МебелЛукс" – мястото за изискани, устойчиви дървени изделия. 
+                Добре дошли в "МебелЛукс - М" – мястото за изискани, устойчиви дървени изделия. 
                 Уникални ръчно изработени мебели, обединяващи естетика, функционалност и здравина. 
                 Вашият дом или бизнес заслужават нашите дървени шедьоври.
               </p>
@@ -70,7 +70,7 @@ export default function Hero() {
                         onClick={submitForm}
                         className={`block w-full py-3 px-4 rounded-md shadow ${hasEnteredEmail ? 'bg-luxOrange' : 'bg-luxOrange'} text-white font-medium hover:${hasEnteredEmail ? 'bg-luxOrange' : 'bg-luxOrange'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxOrange focus:ring-offset-gray-900`}
                       >
-                        {!hasEnteredEmail ? 'Get to ask us' : 'Ask us'}
+                        Изпрати
                       </button>
                     </div>
                   </div>

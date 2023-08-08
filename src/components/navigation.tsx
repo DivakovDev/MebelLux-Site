@@ -178,24 +178,23 @@ export default function NavigationBar() {
                 </>
               )}
             </Popover>
-
-            <a
-              href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Партньори
-            </a>
             <a
               href="/about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               За нас
             </a>
+            <a
+              href="#"
+              className="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Партньори
+            </a>
           </Popover.Group>
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
             <a
               href="/contacts"
-              className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-luxOrange whitespace-nowrap hover:bg-indigo-700"
+              className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-luxOrange whitespace-nowrap hover:bg-luxWenge"
             >
               Контакти
             </a>
@@ -221,8 +220,8 @@ export default function NavigationBar() {
               <div className="flex items-center justify-between">
                 <div>
                   <img
-                    className="w-auto h-8"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    className="w-auto h-10"
+                    src="../images/phoenix-logo.png"
                     alt="Workflow"
                   />
                 </div>
