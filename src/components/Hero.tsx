@@ -21,12 +21,12 @@ export default function Hero() {
             <div className="lg:py-24">
               <a
                 href="#"
-                className="inline-flex items-center p-1 pr-2 text-black bg-white rounded-full sm:text-base lg:text-sm xl:text-base hover:text-luxBlue"
+                className="inline-flex items-center p-1 pr-2 text-black bg-white rounded-full sm:text-base lg:text-sm xl:text-base "
               >
-                <span className="px-3 py-0.5 text-black text-xs font-semibold leading-5 uppercase tracking-wide bg-luxOrange rounded-full">
+                <span className="px-3 py-0.5 text-black hover:text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-luxOrange rounded-full">
                   МебелЛукс-М
                 </span>
-                <span className="ml-4 text-sm">Вече с нов изглед</span>
+                <span className="my-1 ml-4 text-sm font-semibold hover:text-luxOrange">Вече с нов изглед</span>
                 <ChevronRightIcon className="w-5 h-5 ml-2 text-gray-500" aria-hidden="true" />
               </a>
               <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
