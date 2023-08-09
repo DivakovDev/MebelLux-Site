@@ -185,7 +185,7 @@ export default function NavigationBar() {
               За нас
             </a>
             <a
-              href="#"
+              href="/partners"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Партньори
