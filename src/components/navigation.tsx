@@ -130,7 +130,7 @@ export default function NavigationBar() {
                   <Popover.Button
                     className={classNames(
                       open ? "text-gray-900" : "text-gray-500",
-                      "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     )}
                   >
                     <span>Продукти</span>
@@ -180,13 +180,13 @@ export default function NavigationBar() {
             </Popover>
             <a
               href="/about"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-base font-medium text-gray-500 hover:text-indigo-600"
             >
               За нас
             </a>
             <a
               href="/partners"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-base font-medium text-gray-500 hover:text-indigo-600"
             >
               Партньори
             </a>
@@ -194,7 +194,7 @@ export default function NavigationBar() {
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
             <a
               href="/contacts"
-              className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-luxOrange whitespace-nowrap hover:bg-luxWenge"
+              className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-luxOrange whitespace-nowrap "
             >
               Контакти
             </a>

@@ -184,7 +184,7 @@ export default function Partners() {
       <div className="flex justify-center mt-12">
             <button
               onClick={() => setShowAllPartners(!showAllPartners)}
-              className="px-4 py-2 font-medium text-white rounded bg-luxWenge hover:bg-luxOrange focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="px-4 py-2 font-medium text-white rounded bg-luxOrange focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
               {showAllPartners ? "Покажи по-малко" : "Покажи всички"}
             </button>

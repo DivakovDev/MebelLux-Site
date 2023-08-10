@@ -16,7 +16,7 @@ export default function Contacts() {
         <div className="px-4 py-8 mx-auto max-w-7xl sm:py-20 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-base font-semibold tracking-wide uppercase text-luxOrange">
-              МебелЛукс-М
+              <a href="/">МебелЛукс-М</a>
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
               Нека Работим Заедно
@@ -49,8 +49,8 @@ export default function Contacts() {
                     aria-hidden="true"
                   />
                 </div>
-                <div className="ml-3 text-base text-luxBrown">
-                  <p>+359 898 688 821</p>
+                <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
+                <a href="tel:+359 898 688 821" className="cta-btn"> +359 898 688 821</a>
                 </div>
               </div>
               <div className="flex justify-center mt-6">
@@ -85,7 +85,7 @@ export default function Contacts() {
                 <div className="ml-3 text-base text-luxBrown">
                   <p>
                     Адрес: гр. Велинград, ул. &quot;Чавдар Войвода&quot; 29,
-                    4601
+                    4600
                   </p>
                 </div>
               </div>

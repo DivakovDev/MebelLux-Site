@@ -83,7 +83,7 @@ export default function ForUs() {
             {/* <!-- Stats section --> */}
             <div className="mt-10">
               <div className="mt-10">
-                <a href="#" className="text-base font-medium text-indigo-600">
+                <a href="/partners" className="text-base font-medium text-luxOrange hover:text-luxWenge">
                   {" "}
                   Научете повече за това как променяме света от нашите Парньори{" "}
                   <span aria-hidden="true">&rarr;</span>{" "}
