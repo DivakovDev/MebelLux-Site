@@ -21,7 +21,7 @@ const solutions = [
   {
     name: "Спални",
     description: "Създайте уют и комфорт във вашата спалня",
-    href: "#",
+    href: "/beds",
     icon: "ArrowPathIcon",
   },
   {

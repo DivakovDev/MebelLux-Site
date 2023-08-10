@@ -10,7 +10,7 @@ const partners = [
     Adress: 'Адрес:  гр. София, Квартал Ботунец - "РУМ Кремиковци"',
     PhoneNumber: "Тел: 089 850 9708 / 088 894 7480 /  088 565 0562",
     fax: "Факс: 029942149",
-    imageUrl: "/images/rum.png",
+    imageUrl: "/images/Partners-img/rum.png",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Банско, ул. Патриарх Евтимий №11',
     PhoneNumber: "Тел:  089 366 3354",
-    imageUrl: "/images/transmebel.png",
+    imageUrl: "/images/Partners-img/transmebel.png",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Пловдив, ж.к. Тракия, бл. 194, вх. Г',
     PhoneNumber: "Тел: 089 503 7678",
-    imageUrl: "/images/krasi.jpeg",
+    imageUrl: "/images/Partners-img/krasi.jpeg",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Пловдив ул. Бяло море 2',
     PhoneNumber: "Тел: 087 989 8858 / 087 989 8848",
-    imageUrl: "/images/mebeli-beta-sofia-logo.jpg",
+    imageUrl: "/images/Partners-img/mebeli-beta-sofia-logo.jpg",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Гоце Делчев, ул. Дунав №1',
     PhoneNumber: "Тел: 089 795 7600 / 089 795 7614 / 089 888 8383",
-    imageUrl: "/images/transmebel.png",
+    imageUrl: "/images/Partners-img/transmebel.png",
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Пловдив,  ж.к. Тракия, бл. 144',
     PhoneNumber: "Тел: 087 903 8019",
-    imageUrl: "/images/krasi.jpeg",
+    imageUrl: "/images/Partners-img/krasi.jpeg",
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Пловдив ул. Бяло море 2',
     PhoneNumber: "Тел: 087 997 1722",
-    imageUrl: "/images/mebeliarena.png",
+    imageUrl: "/images/Partners-img/mebeliarena.png",
   },
   {
     id: 8,
@@ -66,7 +66,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  село Сатовча, Център',
     PhoneNumber: "Тел: 089 366 3351",
-    imageUrl: "/images/transmebel.png",
+    imageUrl: "/images/Partners-img/transmebel.png",
   },
   {
     id: 9,
@@ -74,7 +74,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр.Добрич, ул. "Екзарх Йосиф I" №5, ет. 2',
     PhoneNumber: "Тел: 087 903 8018",
-    imageUrl: "/images/krasi.jpeg",
+    imageUrl: "/images/Partners-img/krasi.jpeg",
   },
   {
     id: 10,
@@ -82,7 +82,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Пловдив, бул. "България" №180',
     PhoneNumber: "Тел: 089 357 2051",
-    imageUrl: "/images/mebeli-venus.jpg",
+    imageUrl: "/images/Partners-img/mebeli-venus.jpg",
   },
   {
     id: 11,
@@ -90,7 +90,7 @@ const partners = [
     href: "#",
     Adress: 'Адрес:  гр. Хасково, бул. "Раковски" 35',
     PhoneNumber: "Тел: 087 989 8858",
-    imageUrl: "/images/mebeli1.jpg",
+    imageUrl: "/images/Partners-img/mebeli1.jpg",
   },
   {
     id: 12,

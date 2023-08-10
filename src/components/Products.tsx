@@ -8,7 +8,7 @@ const products = [
     name: "Спални",
     description: "Спални с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/background1.png",
+    imageSrc: "/images/Products-img/background1.png",
     href: "/products/bedrooms",
   },
   {
@@ -16,7 +16,7 @@ const products = [
     name: "Кухни",
     description: "Кухни с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/kitchen.jpg",
+    imageSrc: "/images/Products-img/kitchen.jpg",
     href: "/products/kitchens",
   },
   {
@@ -24,7 +24,7 @@ const products = [
     name: "Гардероби",
     description: "Гардероби с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/weardrop.jpg",
+    imageSrc: "/images/Products-img/weardrop.jpg",
     href: "/products/weardrops",
   },
   {
@@ -32,7 +32,7 @@ const products = [
     name: "Нощни шкафчета",
     description: "Нощни шкафчета с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/bedtables.jpg",
+    imageSrc: "/images/Products-img/bedtables.jpg",
     href: "/products/bedtables",
   },
   {
@@ -40,7 +40,7 @@ const products = [
     name: "Бюра",
     description: "Бюра с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/desks.jpg",
+    imageSrc: "/images/Products-img/desks.jpg",
     href: "/products/desks",
   },
   {
@@ -48,7 +48,7 @@ const products = [
     name: "Антрета",
     description: "Антрета с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/antre.jpg",
+    imageSrc: "/images/Products-img/antre.jpg",
     href: "/products/antres",
   },
   {
@@ -56,7 +56,7 @@ const products = [
     name: "Детски легла",
     description: "Детски легла с различни дизайни и цветове",
     options: "Размери: 80/160, 90/190, 120/200",
-    imageSrc: "/images/children-beds.jpg",
+    imageSrc: "/images/Products-img/children-beds.jpg",
     href: "/products/children-beds",
   },
   {
@@ -64,7 +64,7 @@ const products = [
     name: "Секции",
     description: "Секции за всекидневна или хол с различни стилове",
     options: "Размери: разнообразни",
-    imageSrc: "/images/sections.jpg",
+    imageSrc: "/images/Products-img/sections.jpg",
     href: "/products/sections",
   },
   {
@@ -72,7 +72,7 @@ const products = [
     name: "Скринове",
     description: "Скринове с различни размери и дизайни",
     options: "Размери: разнообразни",
-    imageSrc: "/images/dressers.jpg",
+    imageSrc: "/images/Products-img/dressers.jpg",
     href: "/products/dressers",
   },
   {
@@ -80,7 +80,7 @@ const products = [
     name: "Маси",
     description: "Маси за хранене или кафе с различни стилове",
     options: "Размери: разнообразни",
-    imageSrc: "/images/tables.jpg",
+    imageSrc: "/images/Products-img/tables.jpg",
     href: "/products/tables",
   },
   {
@@ -88,7 +88,7 @@ const products = [
     name: "Тоалетки",
     description: "Тоалетки с огледало и различни стилове",
     options: "Размери: разнообразни",
-    imageSrc: "/images/vanities.jpg",
+    imageSrc: "/images/Products-img/vanities.jpg",
     href: "/products/vanities",
   },
   {
@@ -96,7 +96,7 @@ const products = [
     name: "ТВ барчета",
     description: "ТВ барчета с различни конфигурации и цветове",
     options: "Размери: разнообразни",
-    imageSrc: "/images/tv-stands.jpg",
+    imageSrc: "/images/Products-img/tv-stands.jpg",
     href: "/products/tv-stands",
   },
   {
@@ -104,7 +104,7 @@ const products = [
     name: "Градински мебели",
     description: "Мебели за градината с различни дизайни",
     options: "Размери: разнообразни",
-    imageSrc: "/images/outdoor-furniture.jpg",
+    imageSrc: "/images/Products-img/outdoor-furniture.jpg",
     href: "/products/outdoor-furniture",
   },
 ];
