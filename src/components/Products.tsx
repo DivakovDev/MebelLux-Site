@@ -8,7 +8,7 @@ const products = [
     name: "Спални",
     description: "Спални с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/Products-img/background1.png",
+    imageSrc: "/images/Products-img/bedImages/background1.png",
     href: "/beds",
   },
   {

@@ -13,24 +13,140 @@ type Product = {
 const initialProducts: Product[] = [
     {
         id: 1,
-        name: "Луксозно легълце",
+        name: "Спалниа 1",
         imageGallery: [
             {
-                img: "./images/Products-img/background1.png",
+                img: "./images/Products-img/bedImages/background1.png",
             },
             {
-                img: "./images/Products-img/bed1.jpg",
+                img: "./images/Products-img/bedImages/bed0.1.jpg",
             },
             {
-                img: "./images/Products-img/bed2.jpg",
+                img: "./images/Products-img/bedImages/bed0.2.jpg",
             },
             {
-                img: "./images/Products-img/bed3.jpg",
+                img: "./images/Products-img/bedImages/bed0.3.jpg",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed0.4.jpg",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed0.5.jpg",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed0.6.png",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed0.7.png",
             },
         ],
         sizes: "120/200",
         curIndex: 0,
     },
+    {
+        id: 2,
+        name: "Спалниа 2",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed1.jpg",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed1.1.jpg",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    {
+        id: 3,
+        name: "Спалниа 3",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed2.jpg",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    {
+        id: 4,
+        name: "Спалниа 4",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed3.jpg",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    {
+        id: 5,
+        name: "Спалниа 5",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed4.jpg",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    {
+        id: 6,
+        name: "Спалниа 6",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed5.jpg",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    {
+        id: 7,
+        name: "Спалниа 7",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed6.jpg",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    {
+        id: 8,
+        name: "Спалниа 8",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed7.jpg",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    {
+        id: 9,
+        name: "Спалниа 9",
+        imageGallery: [
+            {
+                img: "./images/Products-img/bedImages/bed8.jfif",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed8.1.jfif",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed8.2.jfif",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed8.3.jfif",
+            },
+            {
+                img: "./images/Products-img/bedImages/bed8.4.jfif",
+            },
+        ],
+        sizes: "120/200",
+        curIndex: 0,
+    },
+    
     // More products...
 ];
 
@@ -92,6 +208,15 @@ export default function Example() {
                                     <BsChevronCompactRight />
                                 </button>
                             </div>
+                            <div className="flex justify-between mt-4">
+                            <div>
+                            <h3 className="text-sm text-gray-700">
+                                <span aria-hidden="true" className="absolute inset-0" />
+                                {product.name}
+                            </h3>
+                            <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
+                            </div>
+                        </div>
                         </div>
                     ))}
                 </div>
@@ -113,28 +238,16 @@ export default function Example() {
             name: "Луксозно легълце",
             imageGallery: [
                 {
-                    img: "./images/Products-img/bedImages/background1.png",
+                    img: "./images/Products-img/background1.png",
                 },
                 {
-                    img: "./images/Products-img/bedImages/bed0.1.jpg",
+                    img: "./images/Products-img/bed1.jpg",
                 },
                 {
-                    img: "./images/Products-img/bedImages/bed0.2.jpg",
+                    img: "./images/Products-img/bed2.jpg",
                 },
                 {
-                    img: "./images/Products-img/bedImages/bed0.3.jpg",
-                },
-                {
-                    img: "./images/Products-img/bedImages/bed0.4.jpg",
-                },
-                {
-                    img: "./images/Products-img/bedImages/bed0.5.jpg",
-                },
-                {
-                    img: "./images/Products-img/bedImages/bed0.6.png",
-                },
-                {
-                    img: "./images/Products-img/bedImages/bed0.7.png",
+                    img: "./images/Products-img/bed3.jpg",
                 },
             ],
             sizes: "120/200",
