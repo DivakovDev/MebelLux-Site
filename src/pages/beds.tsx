@@ -113,16 +113,28 @@ export default function Example() {
             name: "Луксозно легълце",
             imageGallery: [
                 {
-                    img: "./images/Products-img/background1.png",
+                    img: "./images/Products-img/bedImages/background1.png",
                 },
                 {
-                    img: "./images/Products-img/bed1.jpg",
+                    img: "./images/Products-img/bedImages/bed0.1.jpg",
                 },
                 {
-                    img: "./images/Products-img/bed2.jpg",
+                    img: "./images/Products-img/bedImages/bed0.2.jpg",
                 },
                 {
-                    img: "./images/Products-img/bed3.jpg",
+                    img: "./images/Products-img/bedImages/bed0.3.jpg",
+                },
+                {
+                    img: "./images/Products-img/bedImages/bed0.4.jpg",
+                },
+                {
+                    img: "./images/Products-img/bedImages/bed0.5.jpg",
+                },
+                {
+                    img: "./images/Products-img/bedImages/bed0.6.png",
+                },
+                {
+                    img: "./images/Products-img/bedImages/bed0.7.png",
                 },
             ],
             sizes: "120/200",
