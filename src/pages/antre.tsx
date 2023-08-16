@@ -13,45 +13,22 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Легло 1",
+    name: "Антре 1",
     imageGallery: [
       {
-        img: "./images/Products-img/bedImages/background1.png",
+        img: "./images/Products-img/hallwaysImg/hallways1.jpg",
       },
-      {
-        img: "./images/Products-img/bedImages/bed0.1.jpg",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed0.2.jpg",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed0.3.jpg",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed0.4.jpg",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed0.5.jpg",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed0.6.jpg",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed0.7.jpg",
-      },
+      
     ],
     sizes: "120/200",
     curIndex: 0,
   },
   {
     id: 2,
-    name: "Легло 2",
+    name: "Антре 2",
     imageGallery: [
       {
-        img: "./images/Products-img/bedImages/bed1.jpg",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed1.1.jpg",
+        img: "./images/Products-img/hallwaysImg/hallways2.jpg",
       },
     ],
     sizes: "120/200",
@@ -59,88 +36,10 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Легло 3",
+    name: "Антре 3",
     imageGallery: [
       {
-        img: "./images/Products-img/bedImages/bed2.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 4,
-    name: "Легло 4",
-    imageGallery: [
-      {
-        img: "./images/Products-img/bedImages/bed3.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 5,
-    name: "Легло 5",
-    imageGallery: [
-      {
-        img: "./images/Products-img/bedImages/bed4.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 6,
-    name: "Легло 6",
-    imageGallery: [
-      {
-        img: "./images/Products-img/bedImages/bed5.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 7,
-    name: "Легло 7",
-    imageGallery: [
-      {
-        img: "./images/Products-img/bedImages/bed6.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 8,
-    name: "Легло 8",
-    imageGallery: [
-      {
-        img: "./images/Products-img/bedImages/bed7.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 9,
-    name: "Легло 9",
-    imageGallery: [
-      {
-        img: "./images/Products-img/bedImages/bed8.jfif",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed8.1.jfif",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed8.2.jfif",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed8.3.jfif",
-      },
-      {
-        img: "./images/Products-img/bedImages/bed8.4.jfif",
+        img: "./images/Products-img/hallwaysImg/hallways3.jpg",
       },
     ],
     sizes: "120/200",
@@ -181,18 +80,16 @@ export default function Example() {
       <div className="flex justify-center px-6 pt-12 pb-12 mx-auto text-center max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-luxOrange sm:text-6xl">
-            Спални
+            Антрета
           </h2>
           <p className="mt-6 text-lg leading-8 text-black">
-            Потопете се в уютната обстановка на нашите дървени спални. Създайте
-            идеалното убежище за отпускане и възстановяване с изискания дизайн и
-            непреходната издръжливост на дървото.
+          Добавете стил и функционалност във входната част на вашия дом с нашите дървени антрета. Внесете усещане за покой и организация, вдъхновени от българската традиция.
           </p>
         </div>
       </div>
       <div className="max-w-2xl px-4 py-16 mx-auto border-t sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Най-продавани Спални
+          Най-продавани Антрета
         </h2>
 
         <div className="grid grid-cols-1 mt-12 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">

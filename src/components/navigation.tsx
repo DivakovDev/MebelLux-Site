@@ -27,7 +27,7 @@ const solutions = [
   {
     name: "Антрета",
     description: "Структурирайте входното пространство на вашия дом",
-    href: "#",
+    href: "/antre",
     icon: "ArrowPathIcon",
   },
   {

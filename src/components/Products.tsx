@@ -17,7 +17,7 @@ const products = [
     description: "Кухни с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
     imageSrc: "/images/Products-img/kitchen.jpg",
-    href: "/products/kitchens",
+    href: "#",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ const products = [
     description: "Антрета с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
     imageSrc: "/images/Products-img/antre.jpg",
-    href: "/products/antres",
+    href: "/antre",
   },
   {
     id: 7,
