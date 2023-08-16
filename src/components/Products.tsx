@@ -25,7 +25,7 @@ const products = [
     description: "Гардероби с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
     imageSrc: "/images/Products-img/weardrop.jpg",
-    href: "/products/weardrops",
+    href: "/wardrobes",
   },
   {
     id: 4,

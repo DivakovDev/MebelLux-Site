@@ -56,7 +56,7 @@ const solutions = [
   {
     name: "Гардероби",
     description: "Просторни и функционални гардероби за вашия дом",
-    href: "#",
+    href: "/wardrobes",
   },
   {
     name: "Скринове",
