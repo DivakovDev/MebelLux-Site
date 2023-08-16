@@ -50,39 +50,39 @@ const initialProducts: Product[] = [
     id: 2,
     name: "Кухня 2",
     imageGallery: [
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.1.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.2.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.3.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.4.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.5.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.6.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.7.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.8.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.9.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen2.10.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.1.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.2.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.3.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.4.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.5.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.6.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.7.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.8.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.9.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen2.10.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -91,15 +91,15 @@ const initialProducts: Product[] = [
     id: 3,
     name: "Кухня 3",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen3.jpg",
-        },
-        {
-            img: "./images/Products-img/kitchensImg/kitchen3.1.jpg",
-        },
-        {
-            img: "./images/Products-img/kitchensImg/kitchen3.2.jpg",
-        },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen3.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen3.1.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen3.2.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -108,21 +108,21 @@ const initialProducts: Product[] = [
     id: 4,
     name: "Кухня 4",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen4.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen4.1.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen4.2.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen4.3.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen4.4.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen4.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen4.1.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen4.2.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen4.3.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen4.4.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -131,12 +131,12 @@ const initialProducts: Product[] = [
     id: 5,
     name: "Кухня 5",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen5.jpg",
-          },
-          {
-            img: "./images/Products-img/kitchensImg/kitchen5.1.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen5.jpg",
+      },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen5.1.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -145,9 +145,9 @@ const initialProducts: Product[] = [
     id: 6,
     name: "Кухня 6",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen10.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen10.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -156,9 +156,9 @@ const initialProducts: Product[] = [
     id: 7,
     name: "Кухня 7",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen7.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen7.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -167,9 +167,9 @@ const initialProducts: Product[] = [
     id: 8,
     name: "Кухня 8",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen8.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen8.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -178,9 +178,9 @@ const initialProducts: Product[] = [
     id: 9,
     name: "Кухня 9",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen9.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen9.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -189,9 +189,9 @@ const initialProducts: Product[] = [
     id: 10,
     name: "Кухня 10",
     imageGallery: [
-        {
-            img: "./images/Products-img/kitchensImg/kitchen6.jpg",
-          },
+      {
+        img: "./images/Products-img/kitchensImg/kitchen6.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -234,7 +234,9 @@ export default function Example() {
             Кухни
           </h2>
           <p className="mt-6 text-lg leading-8 text-black">
-          Разкрийте атмосферата на уют и готварско вълнение с нашите дървени кухни. Изживейте естетиката на традиционния български стил в съчетание с практичността на съвременния дизайн.
+            Разкрийте атмосферата на уют и готварско вълнение с нашите дървени
+            кухни. Изживейте естетиката на традиционния български стил в
+            съчетание с практичността на съвременния дизайн.
           </p>
         </div>
       </div>
@@ -257,26 +259,24 @@ export default function Example() {
               ></div>
               {/* Image Navigation */}
               {product.imageGallery.length > 1 && (
-              <div className="absolute inset-0 items-center justify-between hidden group-hover:flex">
-                <button
-                  onClick={() => prevSlide(product)}
-                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
-                >
-                  <BsChevronCompactLeft />
-                </button>
-                <button
-                  onClick={() => nextSlide(product)}
-                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
-                >
-                  <BsChevronCompactRight />
-                </button>
-              </div>
+                <div className="absolute inset-0 items-center justify-between hidden group-hover:flex">
+                  <button
+                    onClick={() => prevSlide(product)}
+                    className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
+                  >
+                    <BsChevronCompactLeft />
+                  </button>
+                  <button
+                    onClick={() => nextSlide(product)}
+                    className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
+                  >
+                    <BsChevronCompactRight />
+                  </button>
+                </div>
               )}
               <div className="flex justify-between mt-4">
                 <div>
-                  <h3 className="text-sm text-gray-700">
-                    {product.name}
-                  </h3>
+                  <h3 className="text-sm text-gray-700">{product.name}</h3>
                   <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>
