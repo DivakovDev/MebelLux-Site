@@ -71,12 +71,12 @@ const solutions = [
   {
     name: "Тоалетки",
     description: "Изискани и функционални тоалетки за грим и грижа за себе си",
-    href: "#",
+    href: "/vanity-tables",
   },
   {
     name: "ТВ-барчета",
     description: "Стилни решения за подредено ТВ пространство",
-    href: "#",
+    href: "/tv-stands",
   },
   {
     name: "Градински-мебели",

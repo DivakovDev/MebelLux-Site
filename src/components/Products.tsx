@@ -89,7 +89,7 @@ const products = [
     description: "Тоалетки с огледало и различни стилове",
     options: "Размери: разнообразни",
     imageSrc: "/images/Products-img/vanities.jpg",
-    href: "/products/vanities",
+    href: "/vanity-tables",
   },
   {
     id: 12,
@@ -97,7 +97,7 @@ const products = [
     description: "ТВ барчета с различни конфигурации и цветове",
     options: "Размери: разнообразни",
     imageSrc: "/images/Products-img/tv-stands.jpg",
-    href: "/products/tv-stands",
+    href: "/tv-stands",
   },
   {
     id: 13,

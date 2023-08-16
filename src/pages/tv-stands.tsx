@@ -13,13 +13,13 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Скрин 1",
+    name: "ТВ-барчета 1",
     imageGallery: [
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers1.jpg",
+        img: "./images/Products-img/tv-standsImg/tv-stands1.jpg",
       },
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers1.1.jpg",
+        img: "./images/Products-img/tv-standsImg/tv-stands1.1.jpg",
       },
     ],
     sizes: "120/200",
@@ -27,19 +27,10 @@ const initialProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Скрин 2",
+    name: "ТВ-барчета 2",
     imageGallery: [
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.jpg",
-      },
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.1.jpg",
-      },
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.2.jpg",
-      },
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.3.jpg",
+        img: "./images/Products-img/tv-standsImg/tv-stands2.jpg",
       },
     ],
     sizes: "120/200",
@@ -47,19 +38,13 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Скрин 3",
+    name: "ТВ-барчета 3",
     imageGallery: [
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.jpg",
+        img: "./images/Products-img/tv-standsImg/tv-stands3.jfif",
       },
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.1.jpg",
-      },
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.2.jpg",
-      },
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.3.jpg",
+        img: "./images/Products-img/tv-standsImg/tv-stands3.1.jpg",
       },
     ],
     sizes: "120/200",
@@ -67,126 +52,10 @@ const initialProducts: Product[] = [
   },
   {
     id: 4,
-    name: "Скрин 4",
+    name: "ТВ-барчета 4",
     imageGallery: [
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers4.jpg",
-      },
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers4.1.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 5,
-    name: "Скрин 5",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers5.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 6,
-    name: "Скрин 6",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers6.jpg",
-      },
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers6.1.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 7,
-    name: "Скрин 7",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers7.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 8,
-    name: "Скрин 8",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers8.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 9,
-    name: "Скрин 9",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers9.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 10,
-    name: "Скрин 10",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers10.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 11,
-    name: "Скрин 11",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers11.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 12,
-    name: "Скрин 12",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers12.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 13,
-    name: "Скрин 13",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers13.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 14,
-    name: "Скрин 14",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers14.jpg",
+        img: "./images/Products-img/tv-standsImg/tv-stands4.jpg",
       },
     ],
     sizes: "120/200",
@@ -227,18 +96,18 @@ export default function Example() {
       <div className="flex justify-center px-6 pt-12 pb-12 mx-auto text-center max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-luxOrange sm:text-6xl">
-            Скринове
+            ТВ-барчета
           </h2>
           <p className="mt-6 text-lg leading-8 text-black">
-            Съчетайте функционалността с изтънчеността на нашите дървени
-            скринове. Съхранявайте в стил и подредност, като допълните дома си с
-            елегантни детайли.
+            Подредете аудио-визуалната си система с нашите дървени ТВ-барчета.
+            Съчетайте функционалност и стил, докато се наслаждавате на любимите
+            си филми и предавания.
           </p>
         </div>
       </div>
       <div className="max-w-2xl px-4 py-16 mx-auto border-t sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Най-продавани Скринове
+          Най-продавани ТВ-барчета
         </h2>
 
         <div className="grid grid-cols-1 mt-12 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
