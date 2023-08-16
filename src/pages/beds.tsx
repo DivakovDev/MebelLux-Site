@@ -208,10 +208,10 @@ export default function Example() {
                 className="w-full overflow-hidden bg-gray-200 bg-no-repeat bg-cover rounded-md aspect-h-1 aspect-w-1 lg:aspect-none group-hover:opacity-75 lg:h-80"
               ></div>
               {/* Image Navigation */}
-              <div className="absolute inset-0 flex items-center justify-between">
+              <div className="absolute inset-0 items-center justify-between hidden group-hover:flex">
                 <button
                   onClick={() => prevSlide(product)}
-                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
+                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-50"
                 >
                   <BsChevronCompactLeft />
                 </button>
