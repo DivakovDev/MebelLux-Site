@@ -51,7 +51,7 @@ const solutions = [
   {
     name: "Секции",
     description: "Модулни системи за съхранение и организация",
-    href: "#",
+    href: "/shelvingunits",
   },
   {
     name: "Гардероби",

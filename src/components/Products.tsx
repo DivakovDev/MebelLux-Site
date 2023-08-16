@@ -17,7 +17,7 @@ const products = [
     description: "Кухни с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
     imageSrc: "/images/Products-img/kitchen.jpg",
-    href: "#",
+    href: "/kitchens",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const products = [
     description: "Детски легла с различни дизайни и цветове",
     options: "Размери: 80/160, 90/190, 120/200",
     imageSrc: "/images/Products-img/children-beds.jpg",
-    href: "/products/children-beds",
+    href: "/kids-beds",
   },
   {
     id: 8,
@@ -65,7 +65,7 @@ const products = [
     description: "Секции за всекидневна или хол с различни стилове",
     options: "Размери: разнообразни",
     imageSrc: "/images/Products-img/sections.jpg",
-    href: "/products/sections",
+    href: "/shelvingunits",
   },
   {
     id: 9,
