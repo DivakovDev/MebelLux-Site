@@ -205,13 +205,14 @@ export default function Example() {
                     product.imageGallery[product.curIndex].img
                   })`,
                 }}
-                className="w-full overflow-hidden bg-gray-200 bg-no-repeat bg-cover rounded-md aspect-h-1 aspect-w-1 lg:aspect-none group-hover:opacity-75 lg:h-80"
+                className="w-full overflow-hidden bg-gray-200 bg-no-repeat bg-cover rounded-md aspect-h-1 aspect-w-1 lg:aspect-none group-hover:opacity-80 lg:h-80"
               ></div>
               {/* Image Navigation */}
+              {product.imageGallery.length > 1 && (
               <div className="absolute inset-0 items-center justify-between hidden group-hover:flex">
                 <button
                   onClick={() => prevSlide(product)}
-                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-50"
+                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
                 >
                   <BsChevronCompactLeft />
                 </button>
@@ -222,6 +223,7 @@ export default function Example() {
                   <BsChevronCompactRight />
                 </button>
               </div>
+              )}
               <div className="flex justify-between mt-4">
                 <div>
                   <h3 className="text-sm text-gray-700">
