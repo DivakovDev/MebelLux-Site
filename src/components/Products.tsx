@@ -73,7 +73,7 @@ const products = [
     description: "Скринове с различни размери и дизайни",
     options: "Размери: разнообразни",
     imageSrc: "/images/Products-img/dressers.jpg",
-    href: "/products/dressers",
+    href: "/chestsOfdrawers",
   },
   {
     id: 10,

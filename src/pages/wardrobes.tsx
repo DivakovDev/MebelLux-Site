@@ -35,9 +35,9 @@ const initialProducts: Product[] = [
     id: 2,
     name: "Гардероб 2",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe2.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe2.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -46,12 +46,12 @@ const initialProducts: Product[] = [
     id: 3,
     name: "Гардероб 3",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe3.jpg",
-          },
-          {
-            img: "./images/Products-img/wardrobesImg/wardrobe3.1.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe3.jpg",
+      },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe3.1.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -60,9 +60,9 @@ const initialProducts: Product[] = [
     id: 4,
     name: "Гардероб 4",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe4.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe4.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -71,9 +71,9 @@ const initialProducts: Product[] = [
     id: 5,
     name: "Гардероб 5",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe5.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe5.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -82,9 +82,9 @@ const initialProducts: Product[] = [
     id: 6,
     name: "Гардероб 6",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe6.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe6.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -93,9 +93,9 @@ const initialProducts: Product[] = [
     id: 7,
     name: "Гардероб 7",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe7.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe7.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -104,9 +104,9 @@ const initialProducts: Product[] = [
     id: 8,
     name: "Гардероб 8",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe8.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe8.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -115,9 +115,9 @@ const initialProducts: Product[] = [
     id: 9,
     name: "Гардероб 9",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe9.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe9.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -126,9 +126,9 @@ const initialProducts: Product[] = [
     id: 10,
     name: "Гардероб 10",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe10.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe10.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -137,9 +137,9 @@ const initialProducts: Product[] = [
     id: 11,
     name: "Гардероб 11",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe11.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe11.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -148,9 +148,9 @@ const initialProducts: Product[] = [
     id: 12,
     name: "Гардероб 12",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe12.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe12.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -159,9 +159,9 @@ const initialProducts: Product[] = [
     id: 13,
     name: "Гардероб 13",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe13.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe13.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -170,9 +170,9 @@ const initialProducts: Product[] = [
     id: 14,
     name: "Гардероб 14",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe14.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe14.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -181,9 +181,9 @@ const initialProducts: Product[] = [
     id: 15,
     name: "Гардероб 15",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe15.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe15.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -192,9 +192,9 @@ const initialProducts: Product[] = [
     id: 16,
     name: "Гардероб 16",
     imageGallery: [
-        {
-            img: "./images/Products-img/wardrobesImg/wardrobe16.jpg",
-          },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe16.jpg",
+      },
     ],
     sizes: "120/200",
     curIndex: 0,
@@ -234,16 +234,18 @@ export default function Example() {
       <div className="flex justify-center px-6 pt-12 pb-12 mx-auto text-center max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-luxOrange sm:text-6xl">
-          Гардероби 
+            Гардероби
           </h2>
           <p className="mt-6 text-lg leading-8 text-black">
-          Превърнете съхранението на дрехите си в изкуство с нашите дървени гардероби. Създайте уютна и организирана среда за вашата гардеробна стая.
+            Превърнете съхранението на дрехите си в изкуство с нашите дървени
+            гардероби. Създайте уютна и организирана среда за вашата гардеробна
+            стая.
           </p>
         </div>
       </div>
       <div className="max-w-2xl px-4 py-16 mx-auto border-t sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Най-продавани Гардероби 
+          Най-продавани Гардероби
         </h2>
 
         <div className="grid grid-cols-1 mt-12 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -260,26 +262,24 @@ export default function Example() {
               ></div>
               {/* Image Navigation */}
               {product.imageGallery.length > 1 && (
-              <div className="absolute inset-0 items-center justify-between hidden group-hover:flex">
-                <button
-                  onClick={() => prevSlide(product)}
-                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
-                >
-                  <BsChevronCompactLeft />
-                </button>
-                <button
-                  onClick={() => nextSlide(product)}
-                  className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
-                >
-                  <BsChevronCompactRight />
-                </button>
-              </div>
+                <div className="absolute inset-0 items-center justify-between hidden group-hover:flex">
+                  <button
+                    onClick={() => prevSlide(product)}
+                    className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
+                  >
+                    <BsChevronCompactLeft />
+                  </button>
+                  <button
+                    onClick={() => nextSlide(product)}
+                    className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
+                  >
+                    <BsChevronCompactRight />
+                  </button>
+                </div>
               )}
               <div className="flex justify-between mt-4">
                 <div>
-                  <h3 className="text-sm text-gray-700">
-                    {product.name}
-                  </h3>
+                  <h3 className="text-sm text-gray-700">{product.name}</h3>
                   <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>

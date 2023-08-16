@@ -61,7 +61,7 @@ const solutions = [
   {
     name: "Скринове",
     description: "Елегантни и практични скринове за всяка стая",
-    href: "#",
+    href: "/chestsOfdrawers",
   },
   {
     name: "Маси",
