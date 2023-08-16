@@ -81,7 +81,7 @@ const products = [
     description: "Маси за хранене или кафе с различни стилове",
     options: "Размери: разнообразни",
     imageSrc: "/images/Products-img/tables.jpg",
-    href: "/products/tables",
+    href: "/tables",
   },
   {
     id: 11,

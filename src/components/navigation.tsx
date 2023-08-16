@@ -66,7 +66,7 @@ const solutions = [
   {
     name: "Маси",
     description: "Разнообразие от маси за вашата дневна или трапезария",
-    href: "#",
+    href: "/tables",
   },
   {
     name: "Тоалетки",

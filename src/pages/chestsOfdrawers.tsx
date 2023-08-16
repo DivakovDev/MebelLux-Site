@@ -16,16 +16,10 @@ const initialProducts: Product[] = [
     name: "Гардероб 1",
     imageGallery: [
       {
-        img: "./images/Products-img/chestsOfdrawersImg/wardrobe1.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers1.jpg",
       },
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe1.1.jpg",
-      },
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe1.2.jpg",
-      },
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe1.3.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers1.1.jpg",
       },
     ],
     sizes: "120/200",
@@ -36,7 +30,16 @@ const initialProducts: Product[] = [
     name: "Гардероб 2",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe2.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.jpg",
+      },
+      {
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.1.jpg",
+      },
+      {
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.2.jpg",
+      },
+      {
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.3.jpg",
       },
     ],
     sizes: "120/200",
@@ -47,10 +50,16 @@ const initialProducts: Product[] = [
     name: "Гардероб 3",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe3.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.jpg",
       },
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe3.1.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.1.jpg",
+      },
+      {
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.2.jpg",
+      },
+      {
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.3.jpg",
       },
     ],
     sizes: "120/200",
@@ -61,7 +70,10 @@ const initialProducts: Product[] = [
     name: "Гардероб 4",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe4.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers4.jpg",
+      },
+      {
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers4.1.jpg",
       },
     ],
     sizes: "120/200",
@@ -72,7 +84,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 5",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe5.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers5.jpg",
       },
     ],
     sizes: "120/200",
@@ -83,7 +95,10 @@ const initialProducts: Product[] = [
     name: "Гардероб 6",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe6.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers6.jpg",
+      },
+      {
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers6.1.jpg",
       },
     ],
     sizes: "120/200",
@@ -94,7 +109,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 7",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe7.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers7.jpg",
       },
     ],
     sizes: "120/200",
@@ -105,7 +120,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 8",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe8.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers8.jpg",
       },
     ],
     sizes: "120/200",
@@ -116,7 +131,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 9",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe9.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers9.jpg",
       },
     ],
     sizes: "120/200",
@@ -127,7 +142,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 10",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe10.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers10.jpg",
       },
     ],
     sizes: "120/200",
@@ -138,7 +153,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 11",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe11.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers11.jpg",
       },
     ],
     sizes: "120/200",
@@ -149,7 +164,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 12",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe12.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers12.jpg",
       },
     ],
     sizes: "120/200",
@@ -160,7 +175,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 13",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe13.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers13.jpg",
       },
     ],
     sizes: "120/200",
@@ -171,29 +186,7 @@ const initialProducts: Product[] = [
     name: "Гардероб 14",
     imageGallery: [
       {
-        img: "./images/Products-img/wardrobesImg/wardrobe14.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 15,
-    name: "Гардероб 15",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe15.jpg",
-      },
-    ],
-    sizes: "120/200",
-    curIndex: 0,
-  },
-  {
-    id: 16,
-    name: "Гардероб 16",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe16.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers14.jpg",
       },
     ],
     sizes: "120/200",
@@ -234,16 +227,18 @@ export default function Example() {
       <div className="flex justify-center px-6 pt-12 pb-12 mx-auto text-center max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-luxOrange sm:text-6xl">
-          Скринове
+            Скринове
           </h2>
           <p className="mt-6 text-lg leading-8 text-black">
-          Съчетайте функционалността с изтънчеността на нашите дървени скринове. Съхранявайте в стил и подредност, като допълните дома си с елегантни детайли.
+            Съчетайте функционалността с изтънчеността на нашите дървени
+            скринове. Съхранявайте в стил и подредност, като допълните дома си с
+            елегантни детайли.
           </p>
         </div>
       </div>
       <div className="max-w-2xl px-4 py-16 mx-auto border-t sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Най-продавани Скринове 
+          Най-продавани Скринове
         </h2>
 
         <div className="grid grid-cols-1 mt-12 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
