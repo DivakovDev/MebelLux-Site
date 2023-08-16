@@ -41,12 +41,12 @@ const solutions = [
   {
     name: "Бюра",
     description: "Организирайте си работното пространство у дома",
-    href: "#",
+    href: "/desks",
   },
   {
     name: "Нощни-Шкафчета",
     description: "Добавете стил и удобство до вашия спален интериор",
-    href: "#",
+    href: "/nightstands",
   },
   {
     name: "Секции",

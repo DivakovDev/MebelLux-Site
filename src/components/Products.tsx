@@ -33,7 +33,7 @@ const products = [
     description: "Нощни шкафчета с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
     imageSrc: "/images/Products-img/bedtables.jpg",
-    href: "/products/bedtables",
+    href: "/nightstands",
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const products = [
     description: "Бюра с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
     imageSrc: "/images/Products-img/desks.jpg",
-    href: "/products/desks",
+    href: "/desks",
   },
   {
     id: 6,
