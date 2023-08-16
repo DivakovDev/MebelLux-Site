@@ -105,7 +105,7 @@ const products = [
     description: "Мебели за градината с различни дизайни",
     options: "Размери: разнообразни",
     imageSrc: "/images/Products-img/outdoor-furniture.jpg",
-    href: "/products/outdoor-furniture",
+    href: "/outdoor-furniture",
   },
 ];
 

@@ -81,7 +81,7 @@ const solutions = [
   {
     name: "Градински-мебели",
     description: "Удобство и естетика за вашата градина или тераса",
-    href: "#",
+    href: "/outdoor-furniture",
   },
 ];
 
