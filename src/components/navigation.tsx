@@ -91,9 +91,9 @@ function classNames(...classes: any[]) {
 
 export default function NavigationBar() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative z-50 bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
-        <div className="flex items-center justify-between py-4 border-b-2 border-gray-100 md:justify-start md:space-x-10">
+        <div className="flex items-center justify-between py-4 border-gray-100 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="w-16 h-16 sr-only">Workflow</span>

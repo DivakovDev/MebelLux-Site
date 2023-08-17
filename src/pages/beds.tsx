@@ -177,7 +177,7 @@ export default function Example() {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-white border-t-2">
       <div className="flex justify-center px-6 pt-12 pb-12 mx-auto text-center max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-luxOrange sm:text-6xl">
@@ -195,7 +195,7 @@ export default function Example() {
           Най-продавани Спални
         </h2>
 
-        <div className="grid grid-cols-1 mt-12 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 mx-auto mt-12 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <div key={product.id} className="relative group">
               {/* Image Slide */}
@@ -205,7 +205,7 @@ export default function Example() {
                     product.imageGallery[product.curIndex].img
                   })`,
                 }}
-                className="w-full overflow-hidden bg-gray-200 bg-no-repeat bg-cover rounded-md aspect-h-1 aspect-w-1 lg:aspect-none group-hover:opacity-80 lg:h-80"
+                className="w-9/12 mx-auto overflow-hidden bg-gray-200 bg-no-repeat bg-cover rounded-md h-72 aspect-h-1 aspect-w-1 lg:aspect-none group-hover:opacity-80 sm:h-64 lg:h-80 md:w-full lg:w-full"
               ></div>
               {/* Image Navigation */}
               {product.imageGallery.length > 1 && (
@@ -224,7 +224,7 @@ export default function Example() {
                 </button>
               </div>
               )}
-              <div className="flex justify-between mt-4">
+              <div className="flex justify-center w-full mt-4 h-20vh">
                 <div>
                   <h3 className="text-sm text-gray-700">
                     {product.name}
