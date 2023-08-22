@@ -6,7 +6,6 @@ type Product = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
 
@@ -28,7 +27,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe1.3.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -39,7 +38,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe2.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -53,7 +52,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe3.1.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -64,7 +63,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe4.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -75,7 +74,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe5.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -86,7 +85,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe6.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -97,7 +96,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe7.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -108,7 +107,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe8.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -119,7 +118,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe9.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -130,7 +129,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe10.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -141,7 +140,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe11.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -152,7 +151,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe12.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -163,7 +162,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe13.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -174,7 +173,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe14.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -185,7 +184,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe15.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -196,7 +195,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/wardrobesImg/wardrobe16.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   // More products...
@@ -282,7 +281,6 @@ export default function Example() {
                   <h3 className="text-sm text-gray-700">
                     {product.name}
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>
             </div>
@@ -296,6 +294,5 @@ type Products = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
