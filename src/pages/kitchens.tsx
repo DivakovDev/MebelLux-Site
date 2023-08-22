@@ -6,7 +6,6 @@ type Product = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
 
@@ -43,7 +42,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen1.8.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -84,7 +83,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen2.10.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -101,7 +100,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen3.2.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -124,7 +123,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen4.4.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -138,7 +137,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen5.1.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -149,7 +148,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen10.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -160,7 +159,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen7.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -171,7 +170,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen8.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -182,7 +181,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen9.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -193,7 +192,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kitchensImg/kitchen6.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   // More products...
@@ -279,7 +278,6 @@ export default function Example() {
                   <h3 className="text-sm text-gray-700">
                     {product.name}
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>
             </div>
@@ -293,6 +291,5 @@ type Products = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };

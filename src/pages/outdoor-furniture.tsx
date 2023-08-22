@@ -6,7 +6,6 @@ type Product = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
 
@@ -25,7 +24,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture1.2.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -42,7 +41,7 @@ const initialProducts: Product[] = [
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture2.2.jpg",
           },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -56,7 +55,7 @@ const initialProducts: Product[] = [
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture3.1.jpg",
           },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -67,7 +66,7 @@ const initialProducts: Product[] = [
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture4.jpg",
           },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -87,7 +86,7 @@ const initialProducts: Product[] = [
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture5.3.jpg",
           },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   // More products...
@@ -173,7 +172,6 @@ export default function Example() {
                   <h3 className="text-sm text-gray-700">
                     {product.name}
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>
             </div>
@@ -187,6 +185,5 @@ type Products = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };

@@ -6,7 +6,6 @@ type Product = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
 
@@ -19,7 +18,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds1.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -30,7 +29,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds2.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -41,7 +40,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds3.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -52,7 +51,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds4.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -63,7 +62,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds5.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -77,7 +76,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds6.1.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -91,7 +89,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds7.1.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -102,7 +99,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds8.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -113,7 +109,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/kids-bedsImg/kids-beds9.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   // More products...
@@ -199,7 +194,6 @@ export default function Example() {
                   <h3 className="text-sm text-gray-700">
                     {product.name}
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>
             </div>
@@ -213,6 +207,5 @@ type Products = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };

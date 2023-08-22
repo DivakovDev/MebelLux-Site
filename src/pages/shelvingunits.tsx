@@ -6,7 +6,6 @@ type Product = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
 
@@ -25,7 +24,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits1.4.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -39,7 +38,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits13.2.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -50,7 +49,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits2.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -67,7 +66,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits3.2.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -78,7 +77,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits4.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -89,7 +88,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits5.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -100,7 +99,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits6.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -111,7 +110,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits7.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -122,7 +121,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits8.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -133,7 +132,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits9.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -144,7 +143,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits10.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -155,7 +154,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits11.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   {
@@ -166,7 +165,7 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/shelvingunitsImg/shelvingunits12.jpg",
       },
     ],
-    sizes: "120/200",
+    
     curIndex: 0,
   },
   // More products...
@@ -251,7 +250,6 @@ export default function Example() {
                   <h3 className="text-sm text-gray-700">
                     {product.name}
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>
             </div>
@@ -265,6 +263,5 @@ type Products = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };

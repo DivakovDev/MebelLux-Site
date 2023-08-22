@@ -6,7 +6,6 @@ type Product = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
 
@@ -40,7 +39,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed0.7.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -54,7 +52,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed1.1.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -65,7 +62,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed2.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -76,7 +72,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed3.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -87,7 +82,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed4.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -98,7 +92,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed5.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -109,7 +102,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed6.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -120,7 +112,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed7.jpg",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   {
@@ -143,7 +134,6 @@ const initialProducts: Product[] = [
         img: "./images/Products-img/bedImages/bed8.4.jfif",
       },
     ],
-    sizes: "120/200",
     curIndex: 0,
   },
   // More products...
@@ -229,7 +219,6 @@ export default function Example() {
                   <h3 className="text-sm text-gray-700">
                     {product.name}
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.sizes}</p>
                 </div>
               </div>
             </div>
@@ -243,6 +232,5 @@ type Products = {
   id: number;
   name: string;
   imageGallery: { img: string }[];
-  sizes: string;
   curIndex: number;
 };
