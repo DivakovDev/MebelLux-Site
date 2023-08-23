@@ -12,7 +12,7 @@ export default (req, res) =>{
   `
 
   const data = {
-    to: 'mebelluxm@gmail.com',
+    to: 'divakovwork@gmail.com',
     from: 'lusidivakov21@gmail.com',
     subject: 'New message from contact form',
     text: message,
