@@ -2,16 +2,6 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid'
 import {useState } from "react"
 
 export default function Hero() {
-    const [email, setEmail] = useState("");
-    const [inQuery, setInQuery] = useState("");
-    const [ hasEnteredEmail, setHasEnteredEmail ] = useState(false);
-    const submitForm = (e: any) => {
-        e.preventDefault();
-        if (email) setHasEnteredEmail(true);
-        
-        if(email && inQuery) console.log(email), console.log(inQuery);
-    }
-
   return (
     <section>
     <div className="pt-10 bg-luxBlue sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
@@ -38,52 +28,13 @@ export default function Hero() {
                 Уникални ръчно изработени мебели, обединяващи естетика, функционалност и здравина. 
                 Вашият дом или бизнес заслужават нашите дървени шедьоври.
               </p>
-              <div className="mt-10 sm:mt-12">
-                <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
-                  <div className="sm:flex">
-                    <div className={`email min-w-0 flex-1 ${hasEnteredEmail ? 'hidden' : 'block'}`}>
-                      <label htmlFor="email" className="sr-only">
-                        Email address
-                      </label>
-                      <input
-                        id="email"
-                        type="email"
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Enter your email"
-                        className="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-2 border-black rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900"
-                      />
-                    </div>
-                    <div className={`textarea min-w-0 flex-1 ${hasEnteredEmail ? 'block' : 'hidden'}`}>
-                      <label htmlFor="textarea" className="sr-only">
-                        Query
-                      </label>
-                      <textarea 
-                        id="textarea"
-                        onChange={(e) => setInQuery(e.target.value)}
-                        placeholder="Enter your query"
-                        className="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-2 border-black rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxAzure focus:ring-offset-gray-900"
-                      />
-                    </div>
-                    <div className="mt-3 sm:mt-0 sm:ml-3">
-                      <button
-                        type="submit"
-                        onClick={submitForm}
-                        className={`block w-full py-3 px-4 rounded-md shadow ${hasEnteredEmail ? 'bg-luxOrange' : 'bg-luxOrange'} text-white font-medium hover:${hasEnteredEmail ? 'bg-luxOrange' : 'bg-luxOrange'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-luxOrange focus:ring-offset-gray-900`}
-                      >
-                        Изпрати
-                      </button>
-                    </div>
-                  </div>
-                  <p className="mt-3 text-gray-900 text-md sm:mt-4">
-                  Напишете вашия имейл след това натиснете бутона <span className='font-bold text-luxOrange'>'Изпрати'</span>. След като вашият имейл бъде изпратен, напишете вашия въпрос и отново натиснете <span className='font-bold text-luxOrange'>'Изпрати'</span>.
-                  </p>
-                </form>
+              <div className="p-2 mt-10 bg-white rounded-full sm:mt-12">
+                <p className='text-lg text-gray-900'>Свържете се лесно и бързо със нас като натиснете <span><a className='font-bold text-luxOrange hover:underline' href="/contacts">тук</a>!</span></p>
               </div>
             </div>
           </div>
           <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
             <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-              {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
               <img
                 className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="../images/home-bg.png"
