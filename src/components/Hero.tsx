@@ -28,7 +28,7 @@ export default function Hero() {
                 Уникални ръчно изработени мебели, обединяващи естетика, функционалност и здравина. 
                 Вашият дом или бизнес заслужават нашите дървени шедьоври.
               </p>
-              <div className="p-2 mt-10 bg-white rounded-full sm:mt-12">
+              <div className="p-4 mt-10 text-center bg-white rounded-full sm:p-2 sm:mt-12">
                 <p className='text-lg text-gray-900'>Свържете се лесно и бързо със нас като натиснете <span><a className='font-bold text-luxOrange hover:underline' href="/contacts">тук</a>!</span></p>
               </div>
             </div>

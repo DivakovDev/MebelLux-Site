@@ -91,7 +91,7 @@ function classNames(...classes: any[]) {
 
 export default function NavigationBar() {
   return (
-    <Popover className="relative z-50 bg-white">
+    <Popover className="relative z-50 w-full bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
         <div className="flex items-center justify-between py-4 border-gray-100 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -139,16 +139,16 @@ export default function NavigationBar() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                   >
-                    <Popover.Panel className="absolute z-10 w-screen max-w-md px-2 mt-3 -ml-4 transform sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
-                      <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                        <div className="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
+                    <Popover.Panel className="absolute z-10 px-2 mx-auto mt-3 transform w-max sm:px-0 lg:left-1/2 lg:-translate-x-1/2">
+                      <div className="overflow-hidden">
+                        <div className="grid grid-cols-3 gap-4 px-5 py-6 mt-4 bg-white border-2 rounded-md ml-52 sm:gap-8 sm:p-8">
                           {solutions.map((item) => (
                             <a
                               key={item.name}
                               href={item.href}
-                              className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50"
+                              className="flex flex-col p-3 rounded-lg hover:bg-gray-50"
                             >
-                              <div className="ml-4">
+                              <div className="mb-2">
                                 <p className="text-base font-medium text-gray-900">
                                   {item.name}
                                 </p>
