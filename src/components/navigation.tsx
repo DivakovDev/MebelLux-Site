@@ -141,7 +141,7 @@ export default function NavigationBar() {
                   >
                     <Popover.Panel className="absolute z-10 px-2 mx-auto mt-3 transform w-max sm:px-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div className="overflow-hidden">
-                        <div className="grid grid-cols-3 gap-4 px-5 py-6 mt-4 bg-white border-2 rounded-md ml-52 sm:gap-8 sm:p-8">
+                        <div className="grid grid-cols-3 gap-4 px-5 py-6 mt-4 bg-white border-2 rounded-md ml-52 sm:grid-cols-2 sm:w-9/12 sm:ml-0 sm:gap-1 sm:p-3">
                           {solutions.map((item) => (
                             <a
                               key={item.name}
