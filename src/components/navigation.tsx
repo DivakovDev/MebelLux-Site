@@ -145,7 +145,7 @@ export default function NavigationBar() {
                       <div className="overflow-hidden">
                         <div className="grid grid-cols-3 gap-4 px-5 py-6 mt-4 bg-white border-2 rounded-md ml-52 sm:grid-cols-2 sm:w-9/12 sm:ml-0 sm:gap-1 sm:p-3">
                           {solutions.map((item) => (
-                            <a
+                            <Link
                               key={item.name}
                               href={item.href}
                               className="flex flex-col p-3 rounded-lg hover:bg-gray-50"
@@ -158,7 +158,7 @@ export default function NavigationBar() {
                                   {item.description}
                                 </p>
                               </div>
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
@@ -256,7 +256,7 @@ export default function NavigationBar() {
       >
         <Popover.Panel className="mt-6">
         {solutions.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50"
@@ -264,7 +264,7 @@ export default function NavigationBar() {
                       <span className="ml-3 text-base font-medium text-gray-900">
                         {item.name}
                       </span>
-                    </a>
+                    </Link>
                   ))}
         </Popover.Panel>
       </Transition>

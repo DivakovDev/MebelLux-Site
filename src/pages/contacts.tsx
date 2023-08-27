@@ -78,10 +78,10 @@ export default function Contacts() {
                   />
                 </div>
                 <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
-                  <a href="tel:+359 898 688 821" className="cta-btn">
+                  <Link href="tel:+359 898 688 821" className="cta-btn">
                     {" "}
                     +359 898 688 821
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="flex justify-center mt-6">
@@ -92,7 +92,7 @@ export default function Contacts() {
                   />
                 </div>
                 <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
-                  <a href="mailto:mebellux@abv.bg">mebellux@abv.bg</a>
+                  <Link href="mailto:mebellux@abv.bg">mebellux@abv.bg</Link>
                 </div>
               </div>
               <div className="flex justify-center mt-6">
@@ -114,10 +114,10 @@ export default function Contacts() {
                   />
                 </div>
                 <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
-                  <a href="https://goo.gl/maps/SPmYhJjsqXdwQfZ9A" target="_blank" rel="noopener">
+                  <Link href="https://goo.gl/maps/SPmYhJjsqXdwQfZ9A" target="_blank" rel="noopener">
                     Адрес: гр. Велинград, ул. &quot;Чавдар Войвода&quot; 29,
                     4600
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
