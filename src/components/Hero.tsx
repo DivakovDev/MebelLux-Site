@@ -1,4 +1,6 @@
 import { ChevronRightIcon } from '@heroicons/react/24/solid'
+import Link from 'next/link'
+import Image from 'next/image'
 import {useState } from "react"
 
 export default function Hero() {
@@ -24,21 +26,23 @@ export default function Hero() {
                 <span className="block text-luxOrange">по Ваш избор</span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-lg">
-                Добре дошли в "МебелЛукс - М" – мястото за изискани, устойчиви дървени изделия. 
+                Добре дошли в &quot;МебелЛукс - М&quot; – мястото за изискани, устойчиви дървени изделия. 
                 Уникални ръчно изработени мебели, обединяващи естетика, функционалност и здравина. 
                 Вашият дом или бизнес заслужават нашите дървени шедьоври.
               </p>
               <div className="p-4 mt-10 text-center bg-white rounded-full sm:p-2 sm:mt-12">
-                <p className='text-lg text-gray-900'>Свържете се лесно и бързо със нас като натиснете <span><a className='font-bold text-luxOrange hover:underline' href="/contacts">тук</a>!</span></p>
+                <p className='text-lg text-gray-900'>Свържете се лесно и бързо със нас като натиснете <span><Link className='font-bold text-luxOrange hover:underline' href="/contacts">тук</Link>!</span></p>
               </div>
             </div>
           </div>
           <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
             <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-              <img
+              <Image
                 className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="../images/home-bg.png"
                 alt="home-bg"
+                width={1000}
+                height={1000}
               />
             </div>
           </div>

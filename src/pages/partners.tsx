@@ -163,11 +163,14 @@ export default function Partners() {
                 {partner.title}
               </h3>
               <div className="relative flex items-center mt-3 gap-x-4">
-                <img
+                {partner.imageUrl && (                <Image
                   src={partner.imageUrl}
                   alt=""
                   className="h-20 rounded-lg w-max bg-gray-50"
-                />
+                  width={300}
+                  height={200}
+                />)}
+
               </div>
               <div className="relative pb-4 text-center group">
                 <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3">

@@ -1,4 +1,12 @@
-import React from "react";
+import Link from 'next/link';
+import { FormEvent, useState } from 'react';
+
+type MessageData = {
+  status?: string;
+  message?: string;
+};
+
+
 import {
   EnvelopeIcon,
   PhoneIcon,
@@ -7,28 +15,36 @@ import {
 } from "@heroicons/react/24/outline";
 
 export default function Contacts() {
-  async function sendEmail(e:any) {
+  const [message, setMessage] = useState<MessageData>({});
+
+  const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = {};
-    Array.from(e.currentTarget.elements).forEach((input) => {
-      if (!input.name) return;
-      formData[input.name] = input.value;
+    const formData: { [key: string]: string } = {};
+    const elements = e.currentTarget.elements as unknown as Array<
+      HTMLInputElement | HTMLTextAreaElement | HTMLButtonElement
+    >;
+
+    Array.from(elements).forEach((field) => {
+      if (!field.name) return;
+      formData[field.name] = field.value;
     });
-    fetch("/api/mail", {
-      method: "POST",
+
+    await fetch('/api/mail', {
+      method: 'POST',
       body: JSON.stringify(formData),
-    },)
-
-    console.log(formData);
-  }
-
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        setMessage(res);
+      });
+  };
   return (
     <div className="bg-white">
       <div className="bg-white">
         <div className="px-4 py-8 mx-auto max-w-7xl sm:py-20 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-base font-semibold tracking-wide uppercase text-luxOrange">
-              <a href="/">МебелЛукс-М</a>
+              <Link href="/">МебелЛукс-М</Link>
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
               Нека Работим Заедно
@@ -75,8 +91,8 @@ export default function Contacts() {
                     aria-hidden="true"
                   />
                 </div>
-                <div className="ml-3 text-base text-luxBrown">
-                  <p>mebellux@abv.bg</p>
+                <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
+                  <a href="mailto:mebellux@abv.bg">mebellux@abv.bg</a>
                 </div>
               </div>
               <div className="flex justify-center mt-6">
@@ -97,11 +113,11 @@ export default function Contacts() {
                     aria-hidden="true"
                   />
                 </div>
-                <div className="ml-3 text-base text-luxBrown">
-                  <p>
+                <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
+                  <a href="https://goo.gl/maps/SPmYhJjsqXdwQfZ9A" target="_blank" rel="noopener">
                     Адрес: гр. Велинград, ул. &quot;Чавдар Войвода&quot; 29,
                     4600
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -133,6 +149,8 @@ export default function Contacts() {
                   method="POST"
                   className="max-w-xl mx-auto mt-16 sm:mt-20"
                 >
+                  {message?.status == 'success' ? (<span className='text-green-600 text-center text-lg'> {message.message} </span>) : 
+                  (<span className='text-red-600 text-center text-lg'> {message.message} </span>)}
                   <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div className="sm:col-span-2">
                       <label
@@ -172,7 +190,7 @@ export default function Contacts() {
                     </div>
                     <div className="sm:col-span-2">
                       <label
-                        htmlFor="phone-number"
+                        htmlFor="phone"
                         className="block text-sm font-semibold leading-6 text-gray-900"
                       >
                         Телефонен номер
@@ -181,8 +199,8 @@ export default function Contacts() {
                         <input
                           placeholder="+359 893 523 842"
                           type="tel"
-                          name="phone-number"
-                          id="phone-number"
+                          name="phone"
+                          id="phone"
                           autoComplete="tel"
                           className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />

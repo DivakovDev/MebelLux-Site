@@ -44,7 +44,7 @@ const navigation = {
               </a>
             ))}
           </div>
-          <p className="mt-8 text-base text-center text-luxWenge">&copy;2023 "МебелЛукс-М". Всички права запазени. Уебсайт създаден от DivakovDev</p>
+          <p className="mt-8 text-base text-center text-luxWenge">&copy;2023 &quot;МебелЛукс-М&quot;. Всички права запазени. Уебсайт създаден от DivakovDev</p>
         </div>
       </footer>
     )

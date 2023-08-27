@@ -176,12 +176,14 @@ export default function Example() {
               {product.imageGallery.length > 1 && (
               <div className="absolute inset-0 items-center justify-between hidden group-hover:flex">
                 <button
+                title='Previous Slide'
                   onClick={() => prevSlide(product)}
                   className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
                 >
                   <BsChevronCompactLeft />
                 </button>
                 <button
+                title='Next Slide'
                   onClick={() => nextSlide(product)}
                   className="flex items-center justify-center w-10 h-10 text-white transition-colors duration-300 bg-black bg-opacity-50 rounded-full hover:bg-opacity-75"
                 >
