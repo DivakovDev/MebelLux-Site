@@ -40,7 +40,7 @@ const products = [
     name: "Бюра",
     description: "Бюра с различни размери и цветове",
     options: "Размери: 160/200, 180/200, 200/200",
-    imageSrc: "/images/Products-img/desksImg/desks1.jpg",
+    imageSrc: "/images/Products-img/desksImg/desk1.jpg",
     href: "/desks",
   },
   {

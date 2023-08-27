@@ -39,10 +39,10 @@ export default function Hero() {
             <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <Image
                 className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="../images/home-bg.png"
+                src="/images/home-bg.png"
                 alt="home-bg"
-                width={1000}
-                height={1000}
+                width={756}
+                height={756}
               />
             </div>
           </div>

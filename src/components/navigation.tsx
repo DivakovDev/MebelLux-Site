@@ -100,7 +100,7 @@ export default function NavigationBar() {
             <Link href="/">
               <Image
                 className="w-auto h-10 sm:h-14"
-                src="../images/phoenix-logo.png"
+                src="/images/phoenix-logo.png"
                 width={500}
                 height={500}
                 alt=""
@@ -210,7 +210,7 @@ export default function NavigationBar() {
                 <div>
                   <Image
                     className="w-auto h-10"
-                    src="../images/phoenix-logo.png"
+                    src="/images/phoenix-logo.png"
                     alt="Workflow"
                     width={500}
                     height={500}
