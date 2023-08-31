@@ -12,7 +12,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Секция 1",
+    name: "Секция 'Поли'",
     imageGallery: [
       {
         img: "./images/Products-img/shelvingunitsImg/shelvingunits1.jpg",
@@ -29,7 +29,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Секция 2",
+    name: "Секция 'Таня'",
     imageGallery: [
       {
         img: "./images/Products-img/shelvingunitsImg/shelvingunits13.1.jpg",
@@ -43,7 +43,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Секция 3",
+    name: "Бюфет 'Бавария'",
     imageGallery: [
       {
         img: "./images/Products-img/shelvingunitsImg/shelvingunits2.jpg",
@@ -54,7 +54,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 4,
-    name: "Секция 4",
+    name: "Бюфет 'Бавария' с чекмеджета",
     imageGallery: [
       {
         img: "./images/Products-img/shelvingunitsImg/shelvingunits3.jpg",
@@ -64,6 +64,17 @@ const initialProducts: Product[] = [
       },
       {
         img: "./images/Products-img/shelvingunitsImg/shelvingunits3.2.jpg",
+      },
+    ],
+    
+    curIndex: 0,
+  },
+  {
+    id: 12,
+    name: "Секция 'Ханко'",
+    imageGallery: [
+      {
+        img: "./images/Products-img/shelvingunitsImg/shelvingunits11.jpg",
       },
     ],
     
@@ -146,20 +157,10 @@ const initialProducts: Product[] = [
     
     curIndex: 0,
   },
-  {
-    id: 12,
-    name: "Секция 12",
-    imageGallery: [
-      {
-        img: "./images/Products-img/shelvingunitsImg/shelvingunits11.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
+  
   {
     id: 13,
-    name: "Секция 13",
+    name: "Секция 12",
     imageGallery: [
       {
         img: "./images/Products-img/shelvingunitsImg/shelvingunits12.jpg",

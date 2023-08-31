@@ -12,7 +12,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Тоалетки 1",
+    name: "Тоалетка 'Бебо'",
     imageGallery: [
       {
         img: "./images/Products-img/vanity-tablesImg/vanity-tables1.jpg",
@@ -29,7 +29,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Тоалетки 2",
+    name: "Тоалетка 'Хриси'",
     imageGallery: [
       {
         img: "./images/Products-img/vanity-tablesImg/vanity-tables2.jfif",
@@ -40,7 +40,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Тоалетки 3",
+    name: "Тоалетки 'Ветрило'",
     imageGallery: [
       {
         img: "./images/Products-img/vanity-tablesImg/vanity-tables3.jpg",
@@ -50,19 +50,8 @@ const initialProducts: Product[] = [
     curIndex: 0,
   },
   {
-    id: 4,
-    name: "Тоалетки 4",
-    imageGallery: [
-      {
-        img: "./images/Products-img/vanity-tablesImg/vanity-tables4.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
     id: 5,
-    name: "Тоалетки 5",
+    name: "Тоалетка 'Бавария'",
     imageGallery: [
       {
         img: "./images/Products-img/vanity-tablesImg/vanity-tables5.jpg",

@@ -11,25 +11,8 @@ type Product = {
 
 const initialProducts: Product[] = [
   {
-    id: 1,
-    name: "Градински Мебели 1",
-    imageGallery: [
-      {
-        img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture1.jpg",
-      },
-      {
-        img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture1.1.jpg",
-      },
-      {
-        img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture1.2.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
     id: 2,
-    name: "Градински Мебели 2",
+    name: "Баварски комплект с дърворезба",
     imageGallery: [
         {
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture2.jpg",
@@ -46,7 +29,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Градински Мебели 3",
+    name: "Баварски комплект с плитки",
     imageGallery: [
         {
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture3.jpg",
@@ -60,7 +43,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 4,
-    name: "Градински Мебели 4",
+    name: "Комплект 'Гранд Бавария'",
     imageGallery: [
         {
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture4.jpg",
@@ -71,7 +54,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 5,
-    name: "Градински Мебели 5",
+    name: "Баварски комплект",
     imageGallery: [
         {
             img: "./images/Products-img/outdoor-furnitureImg/outdoor-furniture5.jpg",

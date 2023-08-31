@@ -12,7 +12,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "ТВ-барчета 1",
+    name: "ТВ-барче право",
     imageGallery: [
       {
         img: "./images/Products-img/tv-standsImg/tv-stands1.jpg",
@@ -25,19 +25,8 @@ const initialProducts: Product[] = [
     curIndex: 0,
   },
   {
-    id: 2,
-    name: "ТВ-барчета 2",
-    imageGallery: [
-      {
-        img: "./images/Products-img/tv-standsImg/tv-stands2.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
     id: 3,
-    name: "ТВ-барчета 3",
+    name: "ТВ-барчета ъглово",
     imageGallery: [
       {
         img: "./images/Products-img/tv-standsImg/tv-stands3.jfif",
@@ -51,7 +40,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 4,
-    name: "ТВ-барчета 4",
+    name: "ТВ-барче 'Амеба'",
     imageGallery: [
       {
         img: "./images/Products-img/tv-standsImg/tv-stands4.jpg",

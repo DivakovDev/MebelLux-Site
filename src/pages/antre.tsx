@@ -11,7 +11,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Антре 1",
+    name: "Портманто 'Лукс' с гардеробче 'Лукс'",
     imageGallery: [
       {
         img: "./images/Products-img/hallwaysImg/hallways1.jpg",
@@ -21,7 +21,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Антре 2",
+    name: "Портманто 'Бебо'",
     imageGallery: [
       {
         img: "./images/Products-img/hallwaysImg/hallways2.jpg",
@@ -31,7 +31,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Антре 3",
+    name: "Малко антре",
     imageGallery: [
       {
         img: "./images/Products-img/hallwaysImg/hallways3.jpg",

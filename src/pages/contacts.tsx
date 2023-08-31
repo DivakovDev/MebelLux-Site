@@ -92,7 +92,7 @@ export default function Contacts() {
                   />
                 </div>
                 <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
-                  <a href="mailto:mebellux@abv.bg">mebellux@abv.bg</a>
+                  <a href="mailto:mebellux@abv.bg">mitko197800@abv.bg</a>
                 </div>
               </div>
               <div className="flex justify-center mt-6">
@@ -149,8 +149,8 @@ export default function Contacts() {
                   method="POST"
                   className="max-w-xl mx-auto mt-16 sm:mt-20"
                 >
-                  {message?.status == 'success' ? (<span className='text-green-600 text-center text-lg'> {message.message} </span>) : 
-                  (<span className='text-red-600 text-center text-lg'> {message.message} </span>)}
+                  {message?.status == 'success' ? (<span className='text-lg text-center text-green-600'> {message.message} </span>) : 
+                  (<span className='text-lg text-center text-red-600'> {message.message} </span>)}
                   <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div className="sm:col-span-2">
                       <label

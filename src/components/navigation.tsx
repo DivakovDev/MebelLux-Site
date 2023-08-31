@@ -66,11 +66,6 @@ const solutions = [
     href: "/chestsOfdrawers",
   },
   {
-    name: "Маси",
-    description: "Разнообразие от маси за вашата дневна или трапезария",
-    href: "/tables",
-  },
-  {
     name: "Тоалетки",
     description: "Изискани и функционални тоалетки за грим и грижа за себе си",
     href: "/vanity-tables",
@@ -95,7 +90,7 @@ export default function NavigationBar() {
   return (
     <Popover className="relative z-50 w-full bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
-        <div className="flex items-center justify-between py-4 border-gray-100 md:justify-start md:space-x-10">
+        <div className="flex items-center justify-between py-4 border-gray-100 md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/">
               <Image
@@ -141,9 +136,9 @@ export default function NavigationBar() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                   >
-                    <Popover.Panel className="absolute z-10 px-2 mx-auto mt-3 transform w-max sm:px-0 lg:left-1/2 lg:-translate-x-1/2">
-                      <div className="overflow-hidden">
-                        <div className="grid grid-cols-3 gap-4 px-5 py-6 mt-4 bg-white border-2 rounded-md ml-52 sm:grid-cols-2 sm:w-9/12 sm:ml-0 sm:gap-1 sm:p-3">
+                    <Popover.Panel className="absolute z-10 px-2 mx-auto mt-3 transform w-max sm:px-0 lg:-translate-x-1/2">
+                      <div className="w-max">
+                        <div className="grid grid-cols-3 gap-4 mt-4 bg-white border-2 rounded-md sm:grid-cols-3 sm:w-8/12 sm:gap-1">
                           {solutions.map((item) => (
                             <a
                               key={item.name}

@@ -12,7 +12,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Легло 1",
+    name: "Спалня с дърворезба",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/background1.png",
@@ -43,7 +43,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Легло 2",
+    name: "Спалня с ратан",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/bed1.jpg",
@@ -55,18 +55,8 @@ const initialProducts: Product[] = [
     curIndex: 0,
   },
   {
-    id: 3,
-    name: "Легло 3",
-    imageGallery: [
-      {
-        img: "./images/Products-img/bedImages/bed2.jpg",
-      },
-    ],
-    curIndex: 0,
-  },
-  {
     id: 4,
-    name: "Легло 4",
+    name: "Спалня 'Сърце'",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/bed3.jpg",
@@ -76,7 +66,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 5,
-    name: "Легло 5",
+    name: "Спалня 'Сърце 2'",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/bed4.jpg",
@@ -86,7 +76,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 6,
-    name: "Легло 6",
+    name: "Спалня с ратан 2",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/bed5.jpg",
@@ -96,7 +86,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 7,
-    name: "Легло 7",
+    name: "Спалня със строгован крак",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/bed6.jpg",
@@ -106,7 +96,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 8,
-    name: "Легло 8",
+    name: "Спалня 'Сърце 3'",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/bed7.jpg",
@@ -116,7 +106,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 9,
-    name: "Легло 9",
+    name: "Спалня 'Хриси'",
     imageGallery: [
       {
         img: "./images/Products-img/bedImages/bed8.jfif",

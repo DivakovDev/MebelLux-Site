@@ -12,10 +12,16 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Легло 1",
+    name: "Двуетажно легло",
     imageGallery: [
       {
         img: "./images/Products-img/kids-bedsImg/kids-beds1.jpg",
+      },
+      {
+        img: "./images/Products-img/kids-bedsImg/kids-beds7.jpg",
+      },
+      {
+        img: "./images/Products-img/kids-bedsImg/kids-beds7.1.jpg",
       },
     ],
     
@@ -27,28 +33,6 @@ const initialProducts: Product[] = [
     imageGallery: [
       {
         img: "./images/Products-img/kids-bedsImg/kids-beds2.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 3,
-    name: "Легло 3",
-    imageGallery: [
-      {
-        img: "./images/Products-img/kids-bedsImg/kids-beds3.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 4,
-    name: "Легло 4",
-    imageGallery: [
-      {
-        img: "./images/Products-img/kids-bedsImg/kids-beds4.jpg",
       },
     ],
     
@@ -74,19 +58,6 @@ const initialProducts: Product[] = [
       },
       {
         img: "./images/Products-img/kids-bedsImg/kids-beds6.1.jpg",
-      },
-    ],
-    curIndex: 0,
-  },
-  {
-    id: 7,
-    name: "Легло 7",
-    imageGallery: [
-      {
-        img: "./images/Products-img/kids-bedsImg/kids-beds7.jpg",
-      },
-      {
-        img: "./images/Products-img/kids-bedsImg/kids-beds7.1.jpg",
       },
     ],
     curIndex: 0,

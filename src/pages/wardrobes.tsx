@@ -12,7 +12,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Гардероб 1",
+    name: "Гардероб с дърворезба",
     imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe1.jpg",
@@ -31,8 +31,25 @@ const initialProducts: Product[] = [
     curIndex: 0,
   },
   {
+    id: 3,
+    name: "Гардероб 'Бебо'",
+    imageGallery: [
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe3.jpg",
+      },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe3.1.jpg",
+      },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe12.jpg",
+      },
+    ],
+    
+    curIndex: 0,
+  },
+  {
     id: 2,
-    name: "Гардероб 2",
+    name: "Гардероб 'Уют'",
     imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe2.jpg",
@@ -41,37 +58,22 @@ const initialProducts: Product[] = [
     
     curIndex: 0,
   },
-  {
-    id: 3,
-    name: "Гардероб 3",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe3.jpg",
-      },
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe3.1.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
+  
   {
     id: 4,
-    name: "Гардероб 4",
+    name: "Гардероб 'Лукс' с ратан",
     imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe4.jpg",
       },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 5,
-    name: "Гардероб 5",
-    imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe5.jpg",
+      },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe10.jpg",
+      },
+      {
+        img: "./images/Products-img/wardrobesImg/wardrobe15.jpg",
       },
     ],
     
@@ -79,7 +81,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 6,
-    name: "Гардероб 6",
+    name: "Гардероб 'Къдрав'",
     imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe6.jpg",
@@ -90,7 +92,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 7,
-    name: "Гардероб 7",
+    name: "Гардероб 'Лукс'",
     imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe7.jpg",
@@ -100,41 +102,8 @@ const initialProducts: Product[] = [
     curIndex: 0,
   },
   {
-    id: 8,
-    name: "Гардероб 8",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe8.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 9,
-    name: "Гардероб 9",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe9.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 10,
-    name: "Гардероб 10",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe10.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
     id: 11,
-    name: "Гардероб 11",
+    name: "Тройка Гардероб с огледало",
     imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe11.jpg",
@@ -144,52 +113,8 @@ const initialProducts: Product[] = [
     curIndex: 0,
   },
   {
-    id: 12,
-    name: "Гардероб 12",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe12.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 13,
-    name: "Гардероб 13",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe13.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 14,
-    name: "Гардероб 14",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe14.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
-    id: 15,
-    name: "Гардероб 15",
-    imageGallery: [
-      {
-        img: "./images/Products-img/wardrobesImg/wardrobe15.jpg",
-      },
-    ],
-    
-    curIndex: 0,
-  },
-  {
     id: 16,
-    name: "Гардероб 16",
+    name: "Гардероб с етажерка",
     imageGallery: [
       {
         img: "./images/Products-img/wardrobesImg/wardrobe16.jpg",

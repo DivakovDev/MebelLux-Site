@@ -12,7 +12,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Нощно Шкафче 1",
+    name: "Нощно Шкафче 'Уют'",
     imageGallery: [
       {
         img: "./images/Products-img/nightstandsImg/nightstands1.jpg",
@@ -26,7 +26,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Нощно Шкафче 2",
+    name: "Нощно Шкафче с дърворезба и ниша",
     imageGallery: [
       {
         img: "./images/Products-img/nightstandsImg/nightstands2.jpg",
@@ -40,7 +40,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Нощно Шкафче 3",
+    name: "Нощно Шкафче 'Лукс' с ратан",
     imageGallery: [
       {
         img: "./images/Products-img/nightstandsImg/nightstands3.jpg",
@@ -54,7 +54,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 4,
-    name: "Нощно Шкафче 4",
+    name: "Нощно Шкафче с две чекмеджета",
     imageGallery: [
       {
         img: "./images/Products-img/nightstandsImg/nightstands4.jpg",
@@ -68,7 +68,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 5,
-    name: "Нощно Шкафче 5",
+    name: "Нощно Шкафче Обикновено",
     imageGallery: [
       {
         img: "./images/Products-img/nightstandsImg/nightstands5.jpg",
@@ -79,7 +79,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 6,
-    name: "Нощно Шкафче 6",
+    name: "Нощно Шкафче 'Лукс'",
     imageGallery: [
       {
         img: "./images/Products-img/nightstandsImg/nightstands6.jpg",
@@ -90,7 +90,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 7,
-    name: "Нощно Шкафче 7",
+    name: "Нощно Шкафче 'Бавария'",
     imageGallery: [
       {
         img: "./images/Products-img/nightstandsImg/nightstands7.jpg",

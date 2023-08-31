@@ -76,14 +76,6 @@ const products = [
     href: "/chestsOfdrawers",
   },
   {
-    id: 10,
-    name: "Маси",
-    description: "Маси за хранене или кафе с различни стилове",
-    options: "Размери: разнообразни",
-    imageSrc: "/images/Products-img/tablesImg/tables1.jpg",
-    href: "/tables",
-  },
-  {
     id: 11,
     name: "Тоалетки",
     description: "Тоалетки с огледало и различни стилове",

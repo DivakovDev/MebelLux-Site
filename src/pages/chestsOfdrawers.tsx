@@ -12,7 +12,7 @@ type Product = {
 const initialProducts: Product[] = [
   {
     id: 1,
-    name: "Скрин 1",
+    name: "Скрин 'Уют'",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers1.jpg",
@@ -25,7 +25,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 2,
-    name: "Скрин 2",
+    name: "Стругован Скрин 'Лукс'",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers2.jpg",
@@ -44,7 +44,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Скрин 3",
+    name: "Скрин 'Бременен'",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers3.jpg",
@@ -63,7 +63,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 4,
-    name: "Скрин 4",
+    name: "Скрин 'Ира'",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers4.jpg",
@@ -71,22 +71,15 @@ const initialProducts: Product[] = [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers4.1.jpg",
       },
-    ],
-    curIndex: 0,
-  },
-  {
-    id: 5,
-    name: "Скрин 5",
-    imageGallery: [
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers5.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers12.jpg",
       },
     ],
     curIndex: 0,
   },
   {
     id: 6,
-    name: "Скрин 6",
+    name: "Скрин ракла 'Лукс'",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers6.jpg",
@@ -94,22 +87,15 @@ const initialProducts: Product[] = [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers6.1.jpg",
       },
-    ],
-    curIndex: 0,
-  },
-  {
-    id: 7,
-    name: "Скрин 7",
-    imageGallery: [
       {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers7.jpg",
+        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers13.jpg",
       },
     ],
     curIndex: 0,
   },
   {
     id: 8,
-    name: "Скрин 8",
+    name: "Скрин ракла",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers8.jpg",
@@ -119,7 +105,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 9,
-    name: "Скрин 9",
+    name: "Скрин 'Бавария'",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers9.jpg",
@@ -129,7 +115,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 10,
-    name: "Скрин 10",
+    name: "Скрин 'Гърция",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers10.jpg",
@@ -138,38 +124,8 @@ const initialProducts: Product[] = [
     curIndex: 0,
   },
   {
-    id: 11,
-    name: "Скрин 11",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers11.jpg",
-      },
-    ],
-    curIndex: 0,
-  },
-  {
-    id: 12,
-    name: "Скрин 12",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers12.jpg",
-      },
-    ],
-    curIndex: 0,
-  },
-  {
-    id: 13,
-    name: "Скрин 13",
-    imageGallery: [
-      {
-        img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers13.jpg",
-      },
-    ],
-    curIndex: 0,
-  },
-  {
     id: 14,
-    name: "Скрин 14",
+    name: "Скрин 'Бебо'",
     imageGallery: [
       {
         img: "./images/Products-img/chestsOfdrawersImg/chestsOfdrawers14.jpg",
