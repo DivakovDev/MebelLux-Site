@@ -127,18 +127,8 @@ export default function NavigationBar() {
                     />
                   </Popover.Button>
 
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-200"
-                    enterFrom="opacity-0 translate-y-1"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in duration-150"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 translate-y-1"
-                  >
-                    <Popover.Panel className="absolute z-10 px-2 mx-auto mt-3 transform w-max sm:px-0 lg:-translate-x-1/2">
-                      <div className="w-max">
-                        <div className="grid grid-cols-3 gap-4 mt-4 bg-white border-2 rounded-md sm:grid-cols-3 sm:w-8/12 sm:gap-1">
+                    <Popover.Panel className="absolute z-10 px-2 mt-3 lg:translate-x-[-42%] lg:translate-y-[3%] left-1/2 top-1/2 w-max sm:px-0 md:translate-x-[-26%] sm:translate-x-[-13%] md:translate-y-[2%]">
+                        <div className="grid grid-cols-2 gap-4 mx-auto mt-4 bg-white border-2 rounded-md lg:grid-cols-3 sm:w-8/12 sm:gap-1">
                           {solutions.map((item) => (
                             <Link
                               key={item.name}
@@ -156,9 +146,7 @@ export default function NavigationBar() {
                             </Link>
                           ))}
                         </div>
-                      </div>
                     </Popover.Panel>
-                  </Transition>
                 </>
               )}
             </Popover>
@@ -186,15 +174,6 @@ export default function NavigationBar() {
         </div>
       </div>
 
-      <Transition
-        as={Fragment}
-        enter="duration-200 ease-out"
-        enterFrom="opacity-0 scale-95"
-        enterTo="opacity-100 scale-100"
-        leave="duration-100 ease-in"
-        leaveFrom="opacity-100 scale-100"
-        leaveTo="opacity-0 scale-95"
-      >
         <Popover.Panel
           focus
           className="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden"
@@ -240,15 +219,6 @@ export default function NavigationBar() {
         />
       </Popover.Button>
 
-      <Transition
-        as={Fragment}
-        enter="transition ease-out duration-200"
-        enterFrom="opacity-0 translate-y-1"
-        enterTo="opacity-100 translate-y-0"
-        leave="transition ease-in duration-150"
-        leaveFrom="opacity-100 translate-y-0"
-        leaveTo="opacity-0 translate-y-1"
-      >
         <Popover.Panel className="mt-6">
         {solutions.map((item) => (
                     <Link
@@ -262,7 +232,6 @@ export default function NavigationBar() {
                     </Link>
                   ))}
         </Popover.Panel>
-      </Transition>
     </>
   )}
 </Popover>
@@ -289,7 +258,6 @@ export default function NavigationBar() {
             </div>
           </div>
         </Popover.Panel>
-      </Transition>
     </Popover>
   );
 }
