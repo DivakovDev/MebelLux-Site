@@ -140,7 +140,7 @@ export default function NavigationBar() {
                       <div className="w-max">
                         <div className="grid grid-cols-3 gap-4 mt-4 bg-white border-2 rounded-md sm:grid-cols-3 sm:w-8/12 sm:gap-1">
                           {solutions.map((item) => (
-                            <a
+                            <Link
                               key={item.name}
                               href={item.href}
                               className="flex flex-col p-3 rounded-lg hover:bg-gray-50"
@@ -153,7 +153,7 @@ export default function NavigationBar() {
                                   {item.description}
                                 </p>
                               </div>
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
@@ -251,7 +251,7 @@ export default function NavigationBar() {
       >
         <Popover.Panel className="mt-6">
         {solutions.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50"
@@ -259,7 +259,7 @@ export default function NavigationBar() {
                       <span className="ml-3 text-base font-medium text-gray-900">
                         {item.name}
                       </span>
-                    </a>
+                    </Link>
                   ))}
         </Popover.Panel>
       </Transition>

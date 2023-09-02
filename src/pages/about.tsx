@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ForUs() {
   return (
@@ -82,11 +83,11 @@ export default function ForUs() {
             {/* <!-- Stats section --> */}
             <div className="mt-10">
               <div className="mt-10">
-                <a href="/partners" className="text-base font-medium text-luxOrange hover:text-luxWenge">
+                <Link href="/partners" className="text-base font-medium text-luxOrange hover:text-luxWenge">
                   {" "}
                   Научете повече за това как променяме света от нашите Парньори{" "}
                   <span aria-hidden="true">&rarr;</span>{" "}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
