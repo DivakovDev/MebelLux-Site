@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Product from "./product";
+import Product from "./ProductInfo";
 
 function Products() {
   useEffect(() => {
