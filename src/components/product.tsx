@@ -6,18 +6,18 @@ import Image from "next/image";
     return (
         <div
         key={props.id}
-        className="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden"
+        className="relative flex flex-col overflow-hidden bg-white border border-gray-200 rounded-lg group"
       >
-        <div className="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96">
+        <div className="bg-gray-200 aspect-w-3 aspect-h-4 group-hover:opacity-75 sm:aspect-none sm:h-96">
           <Image
             src={props.img}
             alt={props.title}
-            className="w-full h-full object-center object-cover sm:w-full sm:h-full"
+            className="object-cover object-center w-full h-full sm:w-full sm:h-full"
             height={1028}
             width={1028}
           />
         </div>
-        <div className="flex-1 p-4 space-y-2 flex flex-col">
+        <div className="flex flex-col flex-1 p-4 space-y-2">
           <h3 className="text-sm font-medium text-gray-900">
             <Link href={props.href}>
               <span aria-hidden="true" className="absolute inset-0" />
@@ -25,7 +25,7 @@ import Image from "next/image";
             </Link>
           </h3>
           <p className="text-sm text-gray-500">{props.description}</p>
-          <div className="flex-1 flex flex-col justify-end">
+          <div className="flex flex-col justify-end flex-1">
             <p className="text-sm italic text-gray-500">{props.options}</p>
           </div>
         </div>
