@@ -208,7 +208,7 @@ export default function Example() {
               )}
               <div className="flex justify-center w-full mt-4 h-20vh">
                 <div>
-                  <h3 className="text-sm text-gray-700">
+                <h3 className="font-semibold text-center text-gray-700 text-md">
                     {product.name}
                   </h3>
                 </div>
