@@ -1,4 +1,4 @@
-import Product from "../components/Product";
+import Product from "./Product";
 import React, { useState } from "react";
 // add those items ito the products array:
 
