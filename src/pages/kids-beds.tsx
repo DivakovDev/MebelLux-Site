@@ -40,7 +40,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 5,
-    name: "Легло 5",
+    name: "Легло 3",
     imageGallery: [
       {
         img: "./images/Products-img/kids-bedsImg/kids-beds5.jpg",
@@ -51,7 +51,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 6,
-    name: "Легло 6",
+    name: "Легло 4",
     imageGallery: [
       {
         img: "./images/Products-img/kids-bedsImg/kids-beds6.jpg",
@@ -64,7 +64,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 8,
-    name: "Легло 8",
+    name: "Легло 5",
     imageGallery: [
       {
         img: "./images/Products-img/kids-bedsImg/kids-beds8.jpg",
@@ -74,7 +74,7 @@ const initialProducts: Product[] = [
   },
   {
     id: 9,
-    name: "Легло 9",
+    name: "Легло 6",
     imageGallery: [
       {
         img: "./images/Products-img/kids-bedsImg/kids-beds9.jpg",
