@@ -93,9 +93,7 @@ export default function Contacts() {
                 </div>
                 <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
 
-                  <a href="mailto:mebellux@abv.bg">mitko197800@abv.bg</a>
-
-                  <Link href="mailto:mebellux@abv.bg">mebellux@abv.bg</Link>
+                  <Link href="mailto:mebellux@abv.bg">mitko197800@abv.bg</Link>
 
                 </div>
               </div>
