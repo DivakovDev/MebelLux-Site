@@ -81,9 +81,9 @@ export default function ForUs() {
             </div>
 
             {/* <!-- Stats section --> */}
-            <div className="mt-10">
-              <div className="mt-10">
-                <Link href="/partners" className="text-base font-medium text-luxOrange hover:text-luxWenge">
+            <div className="mt-10"> 
+              <div className="p-2 mt-10 text-center rounded-lg bg-luxOrange ">
+                <Link href="/partners" className="text-base font-medium text-white hover:text-luxWenge">
                   {" "}
                   Научете повече за това как променяме света от нашите Парньори{" "}
                   <span aria-hidden="true">&rarr;</span>{" "}
