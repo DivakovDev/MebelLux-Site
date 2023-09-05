@@ -12,7 +12,7 @@ import Image from "next/image";
           <Image
             src={props.img}
             alt={props.title}
-            className="object-cover object-center w-full h-full sm:w-full sm:h-full"
+            className="object-cover object-center w-full h-[256px] sm:w-full sm:h-full"
             height={1028}
             width={1028}
           />
