@@ -151,7 +151,7 @@ export default function Partners() {
           Заедно създаваме превъзходство: Нашите надеждни партньори за автентични български дървени мебели
           </p>
         </div>
-        <div className="grid max-w-2xl grid-cols-1 pt-10 mx-auto mt-10 border-t border-gray-200 gap-x-8 gap-y-16 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="grid max-w-2xl grid-cols-1 pt-10 mx-auto mt-10 border-t border-gray-200 gap-x-8 gap-y-16 sm:mt-16 sm:pt-16 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {partners
           .slice(0, showAllPartners ? partners.length : 9)
           .map((partner) => (
@@ -184,7 +184,7 @@ export default function Partners() {
           ))}
         </div>
       </div>
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center pb-12 mt-12">
             <button
               onClick={() => setShowAllPartners(!showAllPartners)}
               className="px-4 py-2 font-medium text-white rounded bg-luxOrange focus:outline-none focus:ring-2 focus:ring-blue-400"
