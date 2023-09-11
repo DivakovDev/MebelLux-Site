@@ -115,7 +115,7 @@ export default function Contacts() {
                     aria-hidden="true"
                   />
                 </div>
-                <div className="ml-3 text-base text-luxBrown hover:text-indigo-600">
+                <div className="ml-3 text-base text-center text-luxBrown hover:text-indigo-600">
                   <Link href="https://goo.gl/maps/SPmYhJjsqXdwQfZ9A" target="_blank" rel="noopener">
                     Адрес: гр. Велинград, ул. &quot;Чавдар Войвода&quot; 29,
                     4600
