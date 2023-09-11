@@ -111,11 +111,11 @@ export default function Contacts() {
               <div className="flex justify-center mt-6">
                 <div className="flex content-center">
                   <MapPinIcon
-                    className="w-6 h-6 text-luxBrown"
+                    className="w-6 h-6 my-auto text-luxBrown"
                     aria-hidden="true"
                   />
                 </div>
-                <div className="ml-3 text-base text-center text-luxBrown hover:text-indigo-600">
+                <div className="ml-1 text-base text-center text-luxBrown hover:text-indigo-600 sm:ml-3 md:ml-3 lg:ml-3">
                   <Link href="https://goo.gl/maps/SPmYhJjsqXdwQfZ9A" target="_blank" rel="noopener">
                     Адрес: гр. Велинград, ул. &quot;Чавдар Войвода&quot; 29,
                     4600

@@ -26,12 +26,12 @@ export default function Hero() {
                 <span className="block text-luxOrange">по Ваш избор</span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-lg">
-                Добре дошли в &quot;МебелЛукс - М&quot; – мястото за изискани, устойчиви дървени изделия. 
+                Добре дошли в &quot;Мебеллукс - М&quot; – мястото за изискани, устойчиви дървени изделия. 
                 Уникални ръчно изработени мебели, обединяващи естетика, функционалност и здравина. 
                 Вашият дом или бизнес заслужават нашите дървени шедьоври.
               </p>
               <div className="p-4 mt-10 text-center bg-white rounded-full sm:p-2 sm:mt-12">
-                <p className='text-lg text-gray-900'>Свържете се лесно и бързо със нас като натиснете <span><Link className='font-bold text-luxOrange hover:underline' href="/contacts">тук</Link>!</span></p>
+                <p className='text-lg text-gray-900'>Свържете се лесно и бързо с нас като натиснете <span><Link className='font-bold text-luxOrange hover:underline' href="/contacts">тук</Link>!</span></p>
               </div>
             </div>
           </div>
