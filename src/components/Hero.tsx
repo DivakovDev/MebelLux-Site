@@ -22,7 +22,7 @@ export default function Hero() {
                 <ChevronRightIcon className="w-5 h-5 ml-2 text-gray-500" aria-hidden="true" />
               </Link>
               <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                <span className="block text-black">Високо класни мебели</span>
+                <span className="block text-black">Висококласни мебели </span>
                 <span className="block text-luxOrange">по Ваш избор</span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-lg">
