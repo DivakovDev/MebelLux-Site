@@ -22,8 +22,8 @@ const sendEmail = async (req: NextApiRequest, res: NextApiResponse) => {
   `
 
   const data = {
-    to: 'manchevdimitar8@gmail.com',
-    from: 'manchevdimitar8@gmail.com',
+    to: 'mebelluxm78@gmail.com',
+    from: 'mebelluxm78@gmail.com',
     subject: 'New message from contact form',
     text: message,
     html: message.replace(/\r\n/g, '<br>')
