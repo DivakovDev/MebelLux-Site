@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
@@ -11,43 +12,48 @@ const navigation = {
     social: [
       {
         name: 'Facebook',
-        href: 'https://www.facebook.com/profile.php?id=100094699432351&locale=bg_BG',
-        icon: (props: any) => (
-          <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-            <path
-              fillRule="evenodd"
-              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-              clipRule="evenodd"
-            />
-          </svg>
-        ),
+        href: '/facebook-logo.png',
+        path:'https://www.facebook.com/profile.php?id=100094699432351&locale=bg_BG',
       },
     ],
   }
   
   export default function Footer() {
     return (
-      <footer className="bg-white border-t-2 border-luxWenge">
-        <div className="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
-          <nav className="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
+      <footer className="bg-white border-t-2">
+        <div className="px-4 py-4 mx-auto sm:flex sm:justify-between sm:px-6 lg:px-8">
+          <nav className="flex flex-col mx-auto sm:mx-0 sm:flex-row"aria-label="Footer">
             {navigation.main.map((item) => (
-              <div key={item.name} className="px-5 py-2">
-                <Link href={item.href} className="text-base font-semibold text-luxWenge hover:text-indigo-600">
+              <div key={item.name} className="flex px-5 py-2 mx-auto my-auto">
+                  <Link href={item.href} className="text-base font-semibold text-luxWenge hover:text-luxOrange">
                   {item.name}
                 </Link>
               </div>
             ))}
           </nav>
-          <div className="flex justify-center mt-8 space-x-6">
+          <div className="flex justify-center sm:justify-normal">
             {navigation.social.map((item) => (
-              <Link key={item.name} href={item.href} className="text-luxWenge hover:text-luxBrown">
+              <Link key={item.name} href={item.path} className="mt-1 text-luxWenge hover:text-luxBrown">
                 <span className="sr-only">{item.name}</span>
-                <item.icon className="w-6 h-6" aria-hidden="true" />
+                <Image
+            src={item.href}
+            alt={item.name}
+            height={64}
+            width={128}
+          />
               </Link>
             ))}
           </div>
-          <p className="mt-8 text-base text-center text-luxWenge">&copy;2023 &quot;МебелЛукс-М&quot;. Всички права запазени. Уебсайт създаден от DivakovDev</p>
         </div>
+        <p className="pt-6 pb-6 text-base text-center text-luxWenge">
+  &copy;2023 &quot;МебелЛукс-М&quot;. Всички права запазени. Уебсайт създаден от{" "}
+  <a
+    href="https://github.com/DivakovDev"
+    className="font-bold text-luxOrange hover:underline underline-offset-2"
+  >
+    DivakovDev
+  </a>
+</p>
       </footer>
     )
   }

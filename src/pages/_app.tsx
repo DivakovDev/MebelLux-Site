@@ -7,7 +7,7 @@ import NavigationBar from '../components/navigation';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className="min-h-screen">
-      <NavigationBar />
+      <NavigationBar/>
       <main className="">
         <Component {...pageProps} />
       </main>
