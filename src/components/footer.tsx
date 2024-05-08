@@ -31,7 +31,7 @@ const navigation = {
               </div>
             ))}
           </nav>
-          <div className="flex justify-center sm:justify-normal">
+          <div className="flex justify-center pt-3 sm:pt-0 sm:justify-normal">
             {navigation.social.map((item) => (
               <Link key={item.name} href={item.path} className="mt-1 text-luxWenge hover:text-luxBrown">
                 <span className="sr-only">{item.name}</span>
