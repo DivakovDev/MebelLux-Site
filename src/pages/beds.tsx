@@ -166,7 +166,7 @@ export default function Example() {
   };
 
   return (
-    <div className="bg-white border-t-2">
+    <div className="bg-white border-t-2 select-none">
       <div className="flex justify-center px-6 pt-12 pb-12 mx-auto text-center max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-luxOrange sm:text-6xl">
