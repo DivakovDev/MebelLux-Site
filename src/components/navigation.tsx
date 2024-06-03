@@ -2,8 +2,6 @@
 import { Fragment } from "react";
 import {
   Popover,
-  PopoverButton,
-  PopoverGroup,
   Transition,
 } from "@headlessui/react";
 import Link from "next/link";
@@ -95,15 +93,15 @@ export default function NavigationBar() {
             </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
-            <PopoverButton className="inline-flex items-center justify-center text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="inline-flex items-center justify-center text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <Bars3Icon className="w-10 h-10" aria-hidden="true" />
-            </PopoverButton>
+            </Popover.Button>
           </div>
-          <PopoverGroup as="nav" className="hidden space-x-10 md:flex">
+          <Popover.Group as="nav" className="hidden space-x-10 md:flex">
             <Popover className="relative">
               {({ open }) => (
                 <>
-                  <PopoverButton
+                  <Popover.Button
                     className={classNames(
                       open ? "text-gray-900" : "text-gray-500",
                       "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-luxOrange focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -117,7 +115,7 @@ export default function NavigationBar() {
                       )}
                       aria-hidden="true"
                     />
-                  </PopoverButton>
+                  </Popover.Button>
                   <Transition
                     as={Fragment}
                     enter="transition ease-out duration-100"
@@ -171,7 +169,7 @@ export default function NavigationBar() {
             >
               Партньори
             </Link>
-          </PopoverGroup>
+          </Popover.Group>
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
             <Link
               href="/contacts"
@@ -201,10 +199,10 @@ export default function NavigationBar() {
                 />
               </div>
               <div className="-mr-2">
-                <PopoverButton className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Close menu</span>
                   <XMarkIcon className="w-6 h-6" aria-hidden="true" />
-                </PopoverButton>
+                </Popover.Button>
               </div>
             </div>
             <div className="mt-6">
@@ -212,7 +210,7 @@ export default function NavigationBar() {
                 <Popover className="relative mx-auto ">
                   {({ open }) => (
                     <>
-                      <PopoverButton
+                      <Popover.Button
                         className={classNames(
                           open ? "text-gray-900" : "text-gray-500",
                           "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gr-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -226,7 +224,7 @@ export default function NavigationBar() {
                           )}
                           aria-hidden="true"
                         />
-                      </PopoverButton>
+                      </Popover.Button>
 
                       <Popover.Panel className="mt-6">
                         {({ close }) => (
