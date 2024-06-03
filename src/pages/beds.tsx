@@ -188,7 +188,7 @@ export default function Example() {
           {products.map((product) => (
             <div key={product.id} className="relative group">
               {/* Image Slide */}
-              <button onClick={() => openModal(product)}>
+              <button onClick={() => openModal(product)} className="flex w-full mx-auto overflow-hidden">
                 <img
                   src={product.imageGallery[product.curIndex].img}
                   alt={product.name}
