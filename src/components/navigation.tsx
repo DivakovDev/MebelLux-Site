@@ -2,7 +2,6 @@
 import { Fragment } from "react";
 import {
   Popover,
-  PopoverPanel,
   PopoverButton,
   PopoverGroup,
   Transition,
@@ -128,7 +127,7 @@ export default function NavigationBar() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <PopoverPanel className="absolute z-10 px-2 mt-3 lg:translate-x-[-42%] lg:translate-y-[3%] left-1/2 top-1/2 w-max sm:px-0 md:translate-x-[-26%] sm:translate-x-[-13%] md:translate-y-[2%]">
+                    <Popover.Panel className="absolute z-10 px-2 mt-3 lg:translate-x-[-42%] lg:translate-y-[3%] left-1/2 top-1/2 w-max sm:px-0 md:translate-x-[-26%] sm:translate-x-[-13%] md:translate-y-[2%]">
                       {({ close }) => (
                         <div className="grid grid-cols-2 gap-4 mx-auto mt-4 bg-white border-2 rounded-md lg:grid-cols-3 sm:w-8/12 sm:gap-1">
                           {solutions.map((item) => (
@@ -155,7 +154,7 @@ export default function NavigationBar() {
                           ))}
                         </div>
                       )}
-                    </PopoverPanel>
+                    </Popover.Panel>
                   </Transition>
                 </>
               )}
@@ -184,7 +183,7 @@ export default function NavigationBar() {
         </div>
       </div>
 
-      <PopoverPanel
+      <Popover.Panel
         focus
         className="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden"
       >
@@ -229,7 +228,7 @@ export default function NavigationBar() {
                         />
                       </PopoverButton>
 
-                      <PopoverPanel className="mt-6">
+                      <Popover.Panel className="mt-6">
                         {({ close }) => (
                           <>
                             {solutions.map((item) => (
@@ -252,7 +251,7 @@ export default function NavigationBar() {
                             ))}
                           </>
                         )}
-                      </PopoverPanel>
+                      </Popover.Panel>
                     </>
                   )}
                 </Popover>
@@ -294,7 +293,7 @@ export default function NavigationBar() {
           </div>
         </div>
         )}
-      </PopoverPanel>
+      </Popover.Panel>
     </Popover>
   );
 }
