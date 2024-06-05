@@ -252,11 +252,11 @@ export default function Example() {
                         className="object-contain w-full h-96"
                         style={{ imageRendering: "auto" }} // Improves image rendering
                       />
-
+                      <div>
                       {selectedProduct &&
                         selectedProduct.imageGallery &&
                         selectedProduct.imageGallery.length > 1 && (
-                          <div className="inline-flex float-right space-x-2 sm:mt-4 sm:mb-4">
+                          <div className="inline-flex float-right space-x-2 sm:mt-4">
                             <button
                               onClick={prevSlide}
                               className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
@@ -271,6 +271,7 @@ export default function Example() {
                             </button>
                           </div>
                         )}
+                        </div>
                     </Dialog.Panel>
                   </Transition.Child>
                 </div>
