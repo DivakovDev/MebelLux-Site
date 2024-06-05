@@ -1,6 +1,6 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { Dialog, Transition } from "@headlessui/react";
+import { Button, Dialog, DialogPanel, Transition, TransitionChild } from '@headlessui/react'
 
 type Product = {
   id: number;
@@ -177,79 +177,71 @@ export default function Example() {
               </div>
             </div>
           ))}
-          <Transition appear show={isOpen} as={Fragment}>
+          <Transition appear show={isOpen}>
             <Dialog
               as="div"
-              className="fixed inset-0 z-50 overflow-y-auto"
+              className="relative z-10 focus:outline-none"
               onClose={closeModal}
             >
-              <div className="flex items-center justify-center min-h-full">
-                <Transition.Child
-                  as={Fragment}
-                  enter="ease-out duration-300"
-                  enterFrom="opacity-0"
-                  enterTo="opacity-100"
-                  leave="ease-in duration-200"
-                  leaveFrom="opacity-100"
-                  leaveTo="opacity-0"
-                >
-                  <div className="fixed inset-0 bg-black opacity-50" />
-                </Transition.Child>
-
-                <Transition.Child
-                  as={Fragment}
-                  enter="ease-out duration-300"
-                  enterFrom="opacity-0 scale-95"
-                  enterTo="opacity-100 scale-100"
-                  leave="ease-in duration-200"
-                  leaveFrom="opacity-100 scale-100"
-                  leaveTo="opacity-0 scale-95"
-                >
-                  <div className="relative z-50 p-4 mx-auto bg-white rounded-lg shadow-xl w-96">
-                    <button
-                      onClick={closeModal}
-                      className="absolute text-gray-500 top-2 right-2 hover:text-gray-700"
-                    >
-                      <span className="sr-only">Close</span>
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
+              <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
+                <div className="flex items-center justify-center min-h-full p-4">
+                  <TransitionChild
+                    enter="ease-out duration-300"
+                    enterFrom="opacity-0 transform-[scale(95%)]"
+                    enterTo="opacity-100 transform-[scale(100%)]"
+                    leave="ease-in duration-200"
+                    leaveFrom="opacity-100 transform-[scale(100%)]"
+                    leaveTo="opacity-0 transform-[scale(95%)]"
+                  >
+                    <DialogPanel className="w-full max-w-lg p-6 rounded-xl bg-white/5 backdrop-blur-2xl">
+                      <Button
+                        className="p-2 bg-gray-700 rounded-full focus:outline-none sm:mb-4 hover:bg-gray-600"
+                        onClick={closeModal}
                       >
-                        <path d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-
-                    <img
-                      src={selectedProduct?.imageGallery[selectedProduct.curIndex].img}
-                      alt={selectedProduct?.name}
-                      className="object-contain w-full h-96"
-                      style={{ imageRendering: 'auto' }} // Improves image rendering
-                    />
-
-                    {selectedProduct && selectedProduct.imageGallery && selectedProduct.imageGallery.length > 1 && (
-                      <div className="absolute flex space-x-2 bottom-4 right-4">
-                        <button
-                          onClick={prevSlide}
-                          className="p-2 bg-black rounded-full focus:outline-none"
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
                         >
-                          <BsChevronCompactLeft className="w-6 h-6" />
-                        </button>
-                        <button
-                          onClick={nextSlide}
-                          className="p-2 bg-black rounded-full focus:outline-none"
-                        >
-                          <BsChevronCompactRight className="w-6 h-6" />
-                        </button>
-                      </div>
-                    )}
+                          <path d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </Button>
+                      <img
+                        src={
+                          selectedProduct?.imageGallery[
+                            selectedProduct.curIndex
+                          ].img
+                        }
+                        alt={selectedProduct?.name}
+                        className="object-contain w-full h-96"
+                        style={{ imageRendering: "auto" }} // Improves image rendering
+                      />
 
-                  </div>
-                </Transition.Child>
+                      {selectedProduct &&
+                        selectedProduct.imageGallery &&
+                        selectedProduct.imageGallery.length > 1 && (
+                          <div className="inline-flex float-right space-x-2 sm:mt-4">
+                            <Button
+                              onClick={prevSlide}
+                              className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
+                            >
+                              <BsChevronCompactLeft className="w-6 h-6" />
+                            </Button>
+                            <Button
+                              onClick={nextSlide}
+                              className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
+                            >
+                              <BsChevronCompactRight className="w-6 h-6" />
+                            </Button>
+                          </div>
+                        )}
+                    </DialogPanel>
+                  </TransitionChild>
+                </div>
               </div>
             </Dialog>
           </Transition>
