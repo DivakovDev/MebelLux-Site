@@ -179,7 +179,7 @@ export default function Example() {
                           ].img
                         }
                         alt={selectedProduct?.name}
-                        className="object-contain w-full h-96"
+                        className="object-contain min-w-full sm:w-full h-96"
                         style={{ imageRendering: "auto" }} // Improves image rendering
                       />
 
