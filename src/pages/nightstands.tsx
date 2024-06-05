@@ -184,7 +184,7 @@ export default function Example() {
               onClose={closeModal}
             >
               <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
-                <div className="flex items-center justify-center min-h-full p-4">
+                <div className="flex items-center justify-center min-h-full p-4 min-w-96">
                   <Transition.Child
                     enter="ease-out duration-300"
                     enterFrom="opacity-0 transform-[scale(95%)]"
@@ -193,7 +193,7 @@ export default function Example() {
                     leaveFrom="opacity-100 transform-[scale(100%)]"
                     leaveTo="opacity-0 transform-[scale(95%)]"
                   >
-                    <Dialog.Panel className="w-full max-w-lg p-6 min-w-96 pb-14 sm:pb-18 rounded-xl bg-white/5 backdrop-blur-2xl">
+                    <Dialog.Panel className="w-full max-w-lg p-6 pb-14 sm:pb-18 rounded-xl bg-white/5 backdrop-blur-2xl">
                       <button
                         className="p-2 bg-gray-700 rounded-full focus:outline-none sm:mb-4 hover:bg-gray-600"
                         onClick={closeModal}
