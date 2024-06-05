@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { Button, Dialog, DialogPanel, Transition, TransitionChild } from '@headlessui/react'
+import { Dialog, DialogPanel, Transition, TransitionChild } from '@headlessui/react'
 
 type Product = {
   id: number;
@@ -126,7 +126,7 @@ export default function Example() {
                     leaveTo="opacity-0 transform-[scale(95%)]"
                   >
                     <DialogPanel className="w-full max-w-lg p-6 rounded-xl bg-white/5 backdrop-blur-2xl">
-                      <Button
+                      <button
                         className="p-2 bg-gray-700 rounded-full focus:outline-none sm:mb-4 hover:bg-gray-600"
                         onClick={closeModal}
                       >
@@ -141,7 +141,7 @@ export default function Example() {
                         >
                           <path d="M6 18L18 6M6 6l12 12" />
                         </svg>
-                      </Button>
+                      </button>
                       <img
                         src={
                           selectedProduct?.imageGallery[
@@ -157,18 +157,18 @@ export default function Example() {
                         selectedProduct.imageGallery &&
                         selectedProduct.imageGallery.length > 1 && (
                           <div className="inline-flex float-right space-x-2 sm:mt-4">
-                            <Button
+                            <button
                               onClick={prevSlide}
                               className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
                             >
                               <BsChevronCompactLeft className="w-6 h-6" />
-                            </Button>
-                            <Button
+                            </button>
+                            <button
                               onClick={nextSlide}
                               className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
                             >
                               <BsChevronCompactRight className="w-6 h-6" />
-                            </Button>
+                            </button>
                           </div>
                         )}
                     </DialogPanel>
