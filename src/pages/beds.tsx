@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import {
-  Dialog,
-  Transition,
-} from "@headlessui/react";
+import { Dialog, Transition } from "@headlessui/react";
 
 type Product = {
   id: number;
@@ -252,26 +249,26 @@ export default function Example() {
                         className="object-contain w-full h-96"
                         style={{ imageRendering: "auto" }} // Improves image rendering
                       />
-                      <div>
-                      {selectedProduct &&
-                        selectedProduct.imageGallery &&
-                        selectedProduct.imageGallery.length > 1 && (
-                          <div className="inline-flex float-right space-x-2 sm:mt-4">
-                            <button
-                              onClick={prevSlide}
-                              className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
-                            >
-                              <BsChevronCompactLeft className="w-6 h-6" />
-                            </button>
-                            <button
-                              onClick={nextSlide}
-                              className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
-                            >
-                              <BsChevronCompactRight className="w-6 h-6" />
-                            </button>
-                          </div>
-                        )}
-                        </div>
+                      <div className="mb-4">
+                        {selectedProduct &&
+                          selectedProduct.imageGallery &&
+                          selectedProduct.imageGallery.length > 1 && (
+                            <div className="inline-flex float-right space-x-2 sm:mt-4">
+                              <button
+                                onClick={prevSlide}
+                                className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
+                              >
+                                <BsChevronCompactLeft className="w-6 h-6" />
+                              </button>
+                              <button
+                                onClick={nextSlide}
+                                className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
+                              >
+                                <BsChevronCompactRight className="w-6 h-6" />
+                              </button>
+                            </div>
+                          )}
+                      </div>
                     </Dialog.Panel>
                   </Transition.Child>
                 </div>
