@@ -259,13 +259,13 @@ export default function Example() {
                           <div className="inline-flex float-right space-x-2 sm:mt-4">
                             <button
                               onClick={prevSlide}
-                              className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
+                              className="flex p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
                             >
                               <BsChevronCompactLeft className="w-6 h-6" />
                             </button>
                             <button
                               onClick={nextSlide}
-                              className="p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
+                              className="flex p-2 bg-gray-700 rounded-full focus:outline-none hover:bg-gray-600"
                             >
                               <BsChevronCompactRight className="w-6 h-6" />
                             </button>
