@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import {
   Dialog,
-  DialogPanel,
   Transition,
   TransitionChild,
 } from "@headlessui/react";
@@ -227,7 +226,7 @@ export default function Example() {
                     leaveFrom="opacity-100 transform-[scale(100%)]"
                     leaveTo="opacity-0 transform-[scale(95%)]"
                   >
-                    <DialogPanel className="w-full max-w-lg p-6 rounded-xl bg-white/5 backdrop-blur-2xl">
+                    <Dialog.Panel className="w-full max-w-lg p-6 rounded-xl bg-white/5 backdrop-blur-2xl">
                       <button
                         className="p-2 bg-gray-700 rounded-full focus:outline-none sm:mb-4 hover:bg-gray-600"
                         onClick={closeModal}
@@ -273,7 +272,7 @@ export default function Example() {
                             </button>
                           </div>
                         )}
-                    </DialogPanel>
+                    </Dialog.Panel>
                   </TransitionChild>
                 </div>
               </div>
