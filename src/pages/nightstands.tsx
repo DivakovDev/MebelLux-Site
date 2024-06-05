@@ -184,7 +184,7 @@ export default function Example() {
               onClose={closeModal}
             >
               <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
-                <div className="flex items-center justify-center min-h-full p-4 min-w-96">
+                <div className="flex items-center justify-center min-h-full p-4">
                   <Transition.Child
                     enter="ease-out duration-300"
                     enterFrom="opacity-0 transform-[scale(95%)]"
@@ -217,7 +217,7 @@ export default function Example() {
                           ].img
                         }
                         alt={selectedProduct?.name}
-                        className="object-contain w-full h-96"
+                        className="object-contain min-w-full h-96"
                         style={{ imageRendering: "auto" }} // Improves image rendering
                       />
 
