@@ -3,7 +3,6 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import {
   Dialog,
   Transition,
-  TransitionChild,
 } from "@headlessui/react";
 
 type Product = {
@@ -218,7 +217,7 @@ export default function Example() {
             >
               <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
                 <div className="flex items-center justify-center min-h-full p-4">
-                  <TransitionChild
+                  <Transition.Child
                     enter="ease-out duration-300"
                     enterFrom="opacity-0 transform-[scale(95%)]"
                     enterTo="opacity-100 transform-[scale(100%)]"
@@ -273,7 +272,7 @@ export default function Example() {
                           </div>
                         )}
                     </Dialog.Panel>
-                  </TransitionChild>
+                  </Transition.Child>
                 </div>
               </div>
             </Dialog>
